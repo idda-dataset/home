@@ -131,6 +131,8 @@ footer:
 
 
 # Reading Files
+include: ["_pages"]
+
 include:
   - .htaccess
   - _pages
@@ -257,7 +259,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
       type: pages
