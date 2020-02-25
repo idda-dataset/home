@@ -115,5 +115,4 @@ tag_archive:
   type: liquid
   path: /tags/
 =======
-remote_theme: mmistakes/minimal-mistakes
 >>>>>>> ce4ab62d2412a996e955c3da7dcf329a3661aa90
