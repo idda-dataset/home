@@ -1,0 +1,14 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Dataset Overview"
+    url: /overview/
+  - title: "Benchmarks"
+    url: /benchmarks/
+  - title: "Download"
+    url: /download/
+  - title: "Contact"
+    url: /contact/

@@ -1,0 +1,23 @@
+Antonio Tavera:
+  name        : "Antonio Tavera"
+  bio         : "PhD Student at Politecnico di Torino. Working on Semantic Segmentation applied to Autonomous Driving"
+  avatar      : "/assets/images/bio-photo-tavera.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:antonio.tavera@polito.it"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/taveraantonio"
+
+Emanuele Alberti:
+  name        : "Emanuele Alberti"
+  bio         : "PhD Student at Politecnico di Torino."
+  avatar      : "/assets/images/bio-photo-alberti.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:emanuele.alberti@polito.it"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ema-alb"
