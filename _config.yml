@@ -62,7 +62,8 @@ staticman:
 reCaptcha:
   siteKey                :
   secret                 :
-
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
