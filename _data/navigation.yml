@@ -4,6 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Homepage"
+    url: /
   - title: "Dataset Overview"
     url: /overview/
   - title: "Benchmarks"
