@@ -129,7 +129,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-
+include: ["_pages"]
 # Reading Files
 include:
   - .htaccess
@@ -260,7 +260,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: splash
       author_profile: true
