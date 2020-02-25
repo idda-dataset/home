@@ -7,7 +7,7 @@ main:
   - title: "Homepage"
     url: /
   - title: "Dataset Overview"
-    url: /_pages/homepage
+    url: /overview/
   - title: "Benchmarks"
     url: /benchmarks/
   - title: "Download"
