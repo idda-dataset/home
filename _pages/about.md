@@ -2,13 +2,7 @@
 permalink: /overview/
 layout: splash
 title: "Overview"
-<!--
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/scenarios.jpg
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
--->
+
 layouts_gallery:
   - url: /assets/images/RGB.jpg
     image_path: /assets/images/RGB.jpg
