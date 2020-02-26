@@ -31,10 +31,12 @@ Type of data:
 - Depth
 - Depth Gray Scale
 - Logarithmic Depth Gray Scale
+<br>
 Dataset Dimensions: 
 - 1006800 images for each data type
 - 1920x1080 pixels
 - FoV of 90°
+<br>
 Data Diversity: 
 - 6 cities + 1 bucolic country 
 - 3 weather and illumination conditions (clear noon, clear sunset, hard rain noon) 
