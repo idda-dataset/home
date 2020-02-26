@@ -1,5 +1,4 @@
 ---
-permalink: /overview/
 layout: splash
 title: "Overview"
 excerpt: "IDDA Dataset general overview"
