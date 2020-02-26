@@ -28,7 +28,7 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 - RGB
 - Pixel-wise Semantic annotation
 - Depth map
-- Semantic-RGB Cityscapes-palette conversion
+- Semantic RGB Cityscapes-palette conversion
 - Depth Gray-scale
 - Logarithmic Depth Gray-scale
 
@@ -85,7 +85,6 @@ last_modified_at: 2020-02-26T11:23:43+01:00
     | 21*   | Railway       | rail truck or elevated rail line                                                        |
     | 22*   | Ground        | horizontal ground-level structure                                                       |
     | 23*   | Static        | clutter in the background not distinguishable, like mountains                           |
-    
     *This class is not considered during evaluation
     {: .notice}
     
