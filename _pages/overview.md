@@ -13,7 +13,7 @@ layouts_gallery:
   - url: /assets/images/depth.jpg
     image_path: /assets/images/overview.jpg
     alt: "Depth Image Example"
-last_modified_at: 2020-02-26T10:26:43+01:00
+last_modified_at: 2020-02-26T10:26:43-04:00
 toc: true
 ---
 
