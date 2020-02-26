@@ -20,16 +20,33 @@ layouts_gallery:
     image_path: /assets/images/Depth.jpg
     alt: "Depth Image Example"
 last_modified_at: 2020-02-26T11:23:43+01:00
-toc: true
 ---
 
 
 ## Notable features
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
+Type of data: 
+- RGB
+- Pixel-wise Semantic annotation
+- Semantic RGB Cityscapes-palette conversion
+- Depth
+- Depth Gray Scale
+- Logarithmic Depth Gray Scale
+Dataset Dimensions: 
+- 1006800 images for each data type
+- 1920x1080 pixels
+- FoV of 90°
+Data Diversity: 
+- 6 cities + 1 bucolic country 
+- 3 weather and illumination conditions (clear noon, clear sunset, hard rain noon) 
+- 5 different camera heights (from lower to higher position)
+- 105 different scenarios with around 16k training/testing images for each
+
+## Semantic Segmentation
+
+
+
+## Depth Maps
+
 
 
 {% include gallery id="layouts_gallery" caption="Click to see some sample taken from IDDA:`RGB`, `Semantic`, and `Depth`." %}
