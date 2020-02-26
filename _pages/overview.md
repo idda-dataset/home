@@ -7,7 +7,7 @@ title: "Overview"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/overview.jpg
+  overlay_image: /assets/images/overview2.jpg
 
 layouts_gallery:
   - url: /assets/images/RGB.jpg
