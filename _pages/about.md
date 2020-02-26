@@ -3,7 +3,7 @@ permalink: /overview/
 layout: single
 classes: wide
 toc: false
-author: false
+author_profile: false
 title: "Overview"
 
 layouts_gallery:
