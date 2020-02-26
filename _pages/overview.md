@@ -1,15 +1,8 @@
 ---
-title: "Overview"
-layout: splash
+
 permalink: /overview/
-date: 2020-02-26T11:48:41+01:00
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/scenarios.jpg
-excerpt: "Dataset Overview"
-
-
+title: "Overview"
+excerpt: "IDDA Dataset general overview"
 layouts_gallery:
   - url: /assets/images/rgb.jpg
     image_path: /assets/images/rgb.jpg
@@ -20,7 +13,9 @@ layouts_gallery:
   - url: /assets/images/depth.jpg
     image_path: /assets/images/depth.jpg
     alt: "Depth Image Example"
-
+last_modified_at: 2020-02-26T10:26:43+01:00
+toc: true
+---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
@@ -89,5 +84,3 @@ For even more demo pages check the [posts archive][year-archive].
 ---
 
 Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
-
----
