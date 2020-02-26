@@ -33,9 +33,10 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 - Logarithmic Depth Gray Scale
 
 ### Dataset Dimensions: 
-- 1006800 images for each data type
+- 1,006,800 images for each data type
 - 1920x1080 pixels
 - FoV of 90°
+- 4TB of memory usage
 
 ### Data Diversity: 
 - 6 cities + 1 bucolic country 
@@ -50,7 +51,6 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 
 
 
-## Depth Maps
 
 
 
