@@ -8,5 +8,7 @@ main:
     url: /benchmarks/
   - title: "Download"
     url: /download/
+  - title: "News"
+    url: /news/
   - title: "Contact"
     url: /contact/
