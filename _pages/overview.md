@@ -59,32 +59,32 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 - 2087.70 x 10<sup>9</sup> annotated pixels
 ### Classes Description:
 
-    | Class 	| Name          	| Description                                                                             	|
-    |-------	|---------------	|-----------------------------------------------------------------------------------------	|
-    | 0*    	| None          	| all the static/dynamic objects not labeled                                              	|
-    | 1     	| Building      	| skyscraper, house, bust stop, garage, bridge,fountains and other types of constructions 	|
-    | 2     	| Fence         	| barrier, railing or other upright structure                                             	|
-    | 3*    	| Other         	| all static objects not classified, but not None                                         	|
-    | 4     	| Pedestrian    	| human person (male, female or kids). Not included what is carried by the person         	|
-    | 5     	| Pole          	| vertical oriented piece of wood or metal                                                	|
-    | 6*    	| Road line     	| all the marks on the road, line painted on the pavements                                	|
-    | 7     	| Road          	| any kind of drivable road                                                               	|
-    | 8     	| Sidewalk      	| part of the ground designated only for pedestrian                                       	|
-    | 9     	| Vegetation    	| tree, hedge, plants                                                                     	|
-    | 10    	| Vehicles      	| cars and truck, visible hood                                                            	|
-    | 11    	| Wall          	| vertical brick or stone structure                                                       	|
-    | 12    	| Traffic Sign  	| the part of the sign containing the information, not the pole                           	|
-    | 13    	| Traffic Light 	| the traffic light box, without pole                                                     	|
-    | 14*   	| Guardrail     	| crash barriers                                                                          	|
-    | 15*   	| Dynamic       	| movable objects like trash, bin, bag or wheelchair                                      	|
-    | 16    	| Bicycle       	| cross bikes, leisures bike and road bikes                                               	|
-    | 17    	| Motorcycle    	| four kind of motorbikes                                                                 	|
-    | 18    	| Rider         	| rider of bike or motorcycle, not pedestrian                                             	|
-    | 19    	| Terrain       	| background, grass, soil, sand or rocks                                                  	|
-    | 20    	| Sky           	| the open sky                                                                            	|
-    | 21*   	| Railway       	| rail truck or elevated rail line                                                        	|
-    | 22*   	| Ground        	| horizontal ground-level structure                                                       	|
-    | 23*   	| Static        	| clutter in the background not distinguishable, like mountains                           	|
+    | Class | Name          | Description                                                                             |
+    |-------|---------------|-----------------------------------------------------------------------------------------|
+    | 0*    | None          | all the static/dynamic objects not labeled                                              |
+    | 1     | Building      | skyscraper, house, bust stop, garage, bridge,fountains and other types of constructions |
+    | 2     | Fence         | barrier, railing or other upright structure                                             |
+    | 3*    | Other         | all static objects not classified, but not None                                         |
+    | 4     | Pedestrian    | human person (male, female or kids). Not included what is carried by the person         |
+    | 5     | Pole          | vertical oriented piece of wood or metal                                                |
+    | 6*    | Road line     | all the marks on the road, line painted on the pavements                                |
+    | 7     | Road          | any kind of drivable road                                                               |
+    | 8     | Sidewalk      | part of the ground designated only for pedestrian                                       |
+    | 9     | Vegetation    | tree, hedge, plants                                                                     |
+    | 10    | Vehicles      | cars and truck, visible hood                                                            |
+    | 11    | Wall          | vertical brick or stone structure                                                       |
+    | 12    | Traffic Sign  | the part of the sign containing the information, not the pole                           |
+    | 13    | Traffic Light | the traffic light box, without pole                                                     |
+    | 14*   | Guardrail     | crash barriers                                                                          |
+    | 15*   | Dynamic       | movable objects like trash, bin, bag or wheelchair                                      |
+    | 16    | Bicycle       | cross bikes, leisures bike and road bikes                                               |
+    | 17    | Motorcycle    | four kind of motorbikes                                                                 |
+    | 18    | Rider         | rider of bike or motorcycle, not pedestrian                                             |
+    | 19    | Terrain       | background, grass, soil, sand or rocks                                                  |
+    | 20    | Sky           | the open sky                                                                            |
+    | 21*   | Railway       | rail truck or elevated rail line                                                        |
+    | 22*   | Ground        | horizontal ground-level structure                                                       |
+    | 23*   | Static        | clutter in the background not distinguishable, like mountains                           |
     
     
     *This class is not considered during evaluation
