@@ -4,13 +4,13 @@ title: "Overview"
 excerpt: "IDDA Dataset general overview"
 layouts_gallery:
   - url: /assets/images/rgb.jpg
-    image_path: /assets/images/rgb.jpg
+    image_path: /assets/images/overview.jpg
     alt: "RGB Image Example"
   - url: /assets/images/semantic.jpg
-    image_path: /assets/images/semantic.jpg
+    image_path: /assets/images/overview.jpg
     alt: "Semantic Image Example"
   - url: /assets/images/depth.jpg
-    image_path: /assets/images/depth.jpg
+    image_path: /assets/images/overview.jpg
     alt: "Depth Image Example"
 last_modified_at: 2020-02-26T10:26:43+01:00
 toc: true
