@@ -86,7 +86,8 @@ last_modified_at: 2020-02-26T11:23:43+01:00
     | 22*   | Ground        | horizontal ground-level structure                                                       |
     | 23*   | Static        | clutter in the background not distinguishable, like mountains                           |
     
-    *This class is not considered during evaluation{: .notice}
+    *This class is not considered during evaluation
+    {: .notice}
     
     
 {% include gallery id="layouts_gallery" caption="Click to see some sample taken from IDDA:`RGB`, `Semantic`, and `Depth`." %}
