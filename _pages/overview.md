@@ -1,10 +1,13 @@
 ---
 permalink: /overview/
-layout: single
-classes: wide
+layout: splash
 toc: false
 author_profile: false
 title: "Overview"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/overview.jpg
 
 layouts_gallery:
   - url: /assets/images/RGB.jpg
