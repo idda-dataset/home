@@ -8,6 +8,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/scenarios.jpg
 excerpt: "Dataset Overview"
+---
+---
 layouts_gallery:
   - url: /assets/images/rgb.jpg
     image_path: /assets/images/rgb.jpg
