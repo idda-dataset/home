@@ -52,7 +52,7 @@ last_modified_at: 2020-02-26T11:23:43+01:00
   - Volkswagen T2
   - Bus  
 - 105 different scenarios with around 16k training/testing images for each
-- Distributions of vehicles and pedestrians in the scene always changing
+- Always different distributions of vehicles and pedestrians in the scenes
 
 ## Semantic Segmentation
 - 24 semantic classes
