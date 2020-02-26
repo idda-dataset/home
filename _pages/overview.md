@@ -36,7 +36,7 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 - 1,006,800 images for each data type
 - 1920x1080 pixels
 - FoV of 90°
-- 4TB of memory usage
+- 4TB of memory occupation
 
 ### Data Diversity: 
 - 6 cities + 1 bucolic country 
@@ -86,7 +86,7 @@ last_modified_at: 2020-02-26T11:23:43+01:00
     | 22*   | Ground        | horizontal ground-level structure                                                       |
     | 23*   | Static        | clutter in the background not distinguishable, like mountains                           |
     
-    _*This class is not considered during evaluation_
+    *This class is not considered during evaluation{: .notice}
     
     
 {% include gallery id="layouts_gallery" caption="Click to see some sample taken from IDDA:`RGB`, `Semantic`, and `Depth`." %}
