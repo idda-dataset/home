@@ -12,7 +12,7 @@ header:
 
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
-    <legend>For downloading t:</legend>
+    <legend>Compile this form to request the dataset or a split</legend>
     Name and Surname: <input type="text" size="10"><br>
     Email: <input type="text" size="10"><br>
     <br>Create your own split:<br>
@@ -24,8 +24,6 @@ header:
     <input type="checkbox" name="town5" value="Town05"> Town05<br>
     <input type="checkbox" name="town6" value="Town06"> Town06<br>
     <input type="checkbox" name="town7" value="Town07"> Town07<br>
-    
-   
     <input type="submit" value="Send" class="btn--info">
   </fieldset>
 </form>
