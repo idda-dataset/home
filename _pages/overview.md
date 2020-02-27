@@ -22,6 +22,9 @@ layouts_gallery:
     image_path: /assets/images/Depth.jpg
     alt: "Depth Image Example"
     title: "Depth Image Example"
+  - image_path: /home/assets/images/download.jpg
+    title: "None class"
+  
 last_modified_at: 2020-02-26T11:23:43+01:00
 ---
 
