@@ -26,13 +26,13 @@ function myFunction() {
   <fieldset>
     <legend>Compile this form to request the dataset or a split</legend>
     <label for="name">Name and Surname:</label><br>
-    <input type="text" id="name"><br>
+    <input type="text" id="name" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email"><br>
+    <input type="email" id="email" required><br>
     <label for="company">Academy/Institution/Company name:</label><br>
     <input type="text" id="company"><br>
     Do you want the whole dataset?<br>
-    <select id="mySelect" onchange="myFunction();">
+    <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
         <option value="yes">Yes</option>
         <option value="no">No</option>
@@ -44,6 +44,7 @@ function myFunction() {
             <div id="left_portion" align="center"  style="float:left; width:33%; height:100%">
                 <label for="towns">Select the town:</label><br>
                 <select name="towns">
+                    <option value=""></option>
                     <option value="town01">Town01</option>
                     <option value="town02">Town02</option>
                     <option value="town03">Town03</option>
@@ -56,6 +57,7 @@ function myFunction() {
             <div id="scroller" align="center" style="width:33%; height:100%; float:left">
                 <label for="weather">Select the weather condition:</label><br>
                 <select name="weather">
+                    <option value=""></option>
                     <option value="weather1">Clear Noon</option>
                     <option value="weather2">Clear Sunset</option>
                     <option value="weather3">Hard Rain Noon</option>
@@ -64,9 +66,10 @@ function myFunction() {
             <div id="right_portion" align="center" style="float:right; width:33%; height:100%">
             <label for="viewpoint">Select the viewpoint:</label><br>
                 <select name="viewpoint">
+                    <option value=""></option>
                     <option value="audi">Audi TT</option>
                     <option value="mustang">Ford Mustang</option>
-                    <option value="jeep">Jeep Wrangle Rubicon</option>
+                    <option value="jeep">Jeep Wrangler Rubicon</option>
                     <option value="volkswagen">Volkswagen T2</option>
                     <option value="bus">Bus</option>
                 </select>
@@ -77,3 +80,5 @@ function myFunction() {
   </fieldset>
 </form>
 
+Dataset download will be available soon. You can now download a preview of IDDA following the [link]()
+{: .notice--warning}
