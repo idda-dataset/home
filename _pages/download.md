@@ -53,17 +53,15 @@ function myFunction() {
                 <option value="town05">Town 05</option>
                 <option value="town06">Town 06</option>
                 <option value="town07">Town 07</option>
-            </select>
-            <br><br>
-            Weather and illumination condition:
+            </select><br><br>
+            <br>Weather and illumination condition:
             <select name="weather">
                 <option value=""></option>
                 <option value="weather1">Clear Noon</option>
                 <option value="weather2">Clear Sunset</option>
                 <option value="weather3">Hard Rain Noon</option>
-            </select>
-            <br><br>
-            Vehicle Viewpoint:
+            </select><br><br>
+            <br>Vehicle Viewpoint:
             <select name="viewpoint">
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
@@ -71,8 +69,7 @@ function myFunction() {
                 <option value="jeep">Jeep Wrangler Rubicon</option>
                 <option value="volkswagen">Volkswagen T2</option>
                 <option value="bus">Bus</option>
-            </select>
-            <br><br>
+            </select><br><br>
         </div>
     </div>
     <br>
@@ -80,7 +77,6 @@ function myFunction() {
   </fieldset>
 </form>
 
-<br>
 <br>
 <br>
 
