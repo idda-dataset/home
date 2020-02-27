@@ -1,6 +1,6 @@
 ---
 permalink: /download/
-layout: staff
+layout: splash
 toc: false
 author_profile: true
 title: "Download"
