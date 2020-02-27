@@ -9,32 +9,32 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/download.jpg
 ---
-
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <fieldset>
-    <legend>Compile this form to request the dataset or a split</legend>
-    Name and Surname: <input type="text" size="10"><br>
-    Email: <input type="text" size="10"><br>
-    <br>Create your own split:<br>
-    Choose the town (1 or more):<br>
-    <input type="checkbox" name="town1" value="Town01"> Town01<br>
-    <input type="checkbox" name="town2" value="Town02"> Town02<br>
-    <input type="checkbox" name="town3" value="Town03"> Town03<br>
-    <input type="checkbox" name="town4" value="Town04"> Town04<br>
-    <input type="checkbox" name="town5" value="Town05"> Town05<br>
-    <input type="checkbox" name="town6" value="Town06"> Town06<br>
-    <input type="checkbox" name="town7" value="Town07"> Town07<br>
-    <input type="submit" value="Send" class="btn--info">
-  </fieldset>
-</form>
-
 <? php
 function yesnoCheck(that) {
-    if (that.value == "other") {
-  alert("check");
+    if (that.value == "no") {
         document.getElementById("ifYes").style.display = "block";
     } else {
         document.getElementById("ifYes").style.display = "none";
     }
 }
 ?>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+  <fieldset>
+    <legend>Compile this form to request the dataset or a split</legend>
+    <label for="name">Name and Surname:</label><br>
+    <input type="text" id="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email"><br>
+    Do you want the whole dataset?<br>
+    <select onchange="yesnoCheck(this);">
+        <option value=""></option>
+        <option value="yes">Yes/option>
+        <option value="no">No</option>
+    </select>
+    <div id="ifYes" style="display: none;">
+    <label for="car">Muu, mikä?</label> <input type="text" id="car" name="car" /><br />
+    </div>
+  </fieldset>
+</form>
+
