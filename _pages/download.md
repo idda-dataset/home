@@ -29,6 +29,8 @@ function myFunction() {
     <input type="text" id="name"><br>
     <label for="email">Email:</label><br>
     <input type="email" id="email"><br>
+    <label for="company">Academy/Institution/Company name:</label><br>
+    <input type="text" id="company"><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();">
         <option value=""></option>
@@ -40,7 +42,7 @@ function myFunction() {
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
             <div id="left_portion" align="center"  style="float:left; width:33%; height:100%">
-                <label for="towns">Choose the town:</label><br>
+                <label for="towns">Select the town:</label><br>
                 <select name="towns">
                     <option value="town01">Town01</option>
                     <option value="town02">Town02</option>
@@ -52,31 +54,26 @@ function myFunction() {
                 </select>
             </div>
             <div id="scroller" align="center" style="width:33%; height:100%; float:left">
-                <label for="towns">Choose the town:</label><br>
-                <select name="towns">
-                    <option value="town01">Town01</option>
-                    <option value="town02">Town02</option>
-                    <option value="town03">Town03</option>
-                    <option value="town04">Town04</option>
-                    <option value="town05">Town05</option>
-                    <option value="town06">Town06</option>
-                    <option value="town07">Town07</option>
+                <label for="weather">Select the weather condition:</label><br>
+                <select name="weather">
+                    <option value="weather1">Clear Noon</option>
+                    <option value="weather2">Clear Sunset</option>
+                    <option value="weather3">Hard Rain Noon</option>
                 </select>
             </div>
             <div id="right_portion" align="center" style="float:right; width:33%; height:100%">
-            <label for="towns">Choose the town:</label><br>
-                <select name="towns">
-                    <option value="town01">Town01</option>
-                    <option value="town02">Town02</option>
-                    <option value="town03">Town03</option>
-                    <option value="town04">Town04</option>
-                    <option value="town05">Town05</option>
-                    <option value="town06">Town06</option>
-                    <option value="town07">Town07</option>
+            <label for="viewpoint">Select the viewpoint:</label><br>
+                <select name="viewpoint">
+                    <option value="audi">Audi TT</option>
+                    <option value="mustang">Ford Mustang</option>
+                    <option value="jeep">Jeep Wrangle Rubicon</option>
+                    <option value="volkswagen">Volkswagen T2</option>
+                    <option value="bus">Bus</option>
                 </select>
             </div>
         </div>
     </div>
+    <input type="submit" value="Request" class="btn--disabled">
   </fieldset>
 </form>
 
