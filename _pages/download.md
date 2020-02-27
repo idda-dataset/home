@@ -24,7 +24,7 @@ function myFunction() {
 <div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 8px 8px #7a8288;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
-    <legend><b>Compile this form to request the dataset or a single split</b><br></legend>
+    <legend><b>Compile this form to request the dataset or a single split</b><br><br><br></legend>
     <label for="fname">Name:</label><br>
     <input type="text" id="fname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="lname">Surname:</label><br>
