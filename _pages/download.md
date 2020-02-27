@@ -32,8 +32,10 @@ function myFunction() {
     <input type="text" id="lname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="email">Email:</label><br>
     <input type="email" id="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="company">Academy/Institution/Company name:</label><br>
+    <label for="company">Organization:</label><br>
     <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
+    <label for="reason">Reason for use of dataset:</label><br>
+    <input type="text" id="reason" style="border: none; border-bottom: 0.01em solid gray; width: 50%;" required><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
