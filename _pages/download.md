@@ -14,9 +14,9 @@ header:
 function myFunction() {
   var x = document.getElementById("mySelect").value;
   if (x == "yes"){
-    document.getElementById("ifYes").style.display = "block";
+    document.getElementById("ifYes").style.display = "none";
   }else{
-  document.getElementById("ifYes").style.display = "none";
+  document.getElementById("ifYes").style.display = "block";
   }
 }
 </script>
@@ -37,7 +37,18 @@ function myFunction() {
     </select>
     <p id="demo"></p>
     <div id="ifYes" style="display: none;">
-        <label for="car">Muu, mikä?</label> <input type="text" id="car" name="car" /><br />
+        <p>Create your own scenario</p><br>
+        <label for="towns">Choose the town:</label><br>
+        <input list="towns" name="towns">
+        <datalist id="towns">
+            <option value="Town 01">
+            <option value="Town 02">
+            <option value="Town 03">
+            <option value="Town 04">
+            <option value="Town 05">
+            <option value="Town 06">
+            <option value="Town 07">
+        </datalist>
     </div>
   </fieldset>
 </form>
