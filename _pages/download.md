@@ -12,7 +12,12 @@ header:
 
 <script>
 function myFunction() {
-  document.getElementById("ifYes").style.display = "";
+  var x = document.getElementById("mySelect").value;
+  if (x == "yes"){
+    document.getElementById("ifYes").style.display = "block";
+  }else{
+  document.getElementById("ifYes").style.display = "none";
+  }
 }
 </script>
 
