@@ -43,19 +43,19 @@ function myFunction() {
     <div id="ifYes" style="display: none;">
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
-            <label for="towns">Town:</label>
+            Town:
             <select name="towns">
                 <option value=""></option>
-                <option value="town01">Town01</option>
-                <option value="town02">Town02</option>
-                <option value="town03">Town03</option>
-                <option value="town04">Town04</option>
-                <option value="town05">Town05</option>
-                <option value="town06">Town06</option>
-                <option value="town07">Town07</option>
+                <option value="town01">Town 01</option>
+                <option value="town02">Town 02</option>
+                <option value="town03">Town 03</option>
+                <option value="town04">Town 04</option>
+                <option value="town05">Town 05</option>
+                <option value="town06">Town 06</option>
+                <option value="town07">Town 07</option>
             </select>
             <br>
-            <label for="weather">Weather and illumination condition:</label>
+            Weather and illumination condition:
             <select name="weather">
                 <option value=""></option>
                 <option value="weather1">Clear Noon</option>
@@ -63,7 +63,7 @@ function myFunction() {
                 <option value="weather3">Hard Rain Noon</option>
             </select>
             <br>
-            <label for="viewpoint">Vehicle Viewpoint:</label>
+            Vehicle Viewpoint:
             <select name="viewpoint">
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
@@ -75,6 +75,7 @@ function myFunction() {
             <br>
         </div>
     </div>
+    <br>
     <input type="submit" value="Request" class="btn--disabled">
   </fieldset>
 </form>
