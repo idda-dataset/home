@@ -22,8 +22,6 @@ layouts_gallery:
     image_path: /assets/images/Depth.jpg
     alt: "Depth Image Example"
     title: "Depth Image Example"
-  - image_path: /home/assets/images/download.jpg
-    title: "None class"
   
 last_modified_at: 2020-02-26T11:23:43+01:00
 ---
@@ -67,7 +65,7 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 
     | Class | Name          | Description                                                                             |
     |-------|---------------|-----------------------------------------------------------------------------------------|
-    | 0*    | [None](/home/assets/images/download.jpg)          | all the remaining objects not labeled                                              |
+    | 0*    | None          | all the remaining objects not labeled                                              |
     | 1     | Building      | skyscraper, house, bust stop, garage, bridge,fountains and other types of constructions |
     | 2     | Fence         | barrier, railing or other upright structure                                             |
     | 3*    | Other         | all static objects not classified, but not None                                         |
