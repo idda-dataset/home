@@ -43,7 +43,7 @@ function myFunction() {
     <div id="ifYes" style="display: none;">
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
-            Town:
+            <label for="towns">Town:</label>
             <select name="towns">
                 <option value=""></option>
                 <option value="town01">Town 01</option>
@@ -53,15 +53,17 @@ function myFunction() {
                 <option value="town05">Town 05</option>
                 <option value="town06">Town 06</option>
                 <option value="town07">Town 07</option>
-            </select><br><br>
-            <br>Weather and illumination condition:
+            </select>
+            <br>
+            <label for="weather">Weather and illumination condition:</label>
             <select name="weather">
                 <option value=""></option>
                 <option value="weather1">Clear Noon</option>
                 <option value="weather2">Clear Sunset</option>
                 <option value="weather3">Hard Rain Noon</option>
-            </select><br><br>
-            <br>Vehicle Viewpoint:
+            </select>
+            <br>
+            <label for="viewpoint">Vehicle Viewpoint:</label>
             <select name="viewpoint">
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
@@ -69,7 +71,8 @@ function myFunction() {
                 <option value="jeep">Jeep Wrangler Rubicon</option>
                 <option value="volkswagen">Volkswagen T2</option>
                 <option value="bus">Bus</option>
-            </select><br><br>
+            </select>
+            <br>
         </div>
     </div>
     <br>
@@ -79,6 +82,7 @@ function myFunction() {
 
 <br>
 <br>
+<br>
 
-Dataset download will be available soon. You can now download a preview of IDDA following the [link](www.prova.com)
+Dataset download will be available soon. You can now download a preview of IDDA [here](www.prova.com)
 {: .notice--warning}
