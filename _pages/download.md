@@ -39,7 +39,7 @@ function myFunction() {
     <div id="ifYes" style="display: none;">
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
-         <div id="left_portion" align="center"  style="float:left; width:10%; height:10%; >
+         <div id="left_portion" align="center"  style="float:left; width:33%; height:10%>
         <label for="towns">Choose the town:</label><br>
             <select name="towns">
                 <option value="town01">Town01</option>
@@ -51,7 +51,7 @@ function myFunction() {
                 <option value="town07">Town07</option>
             </select>
          </div>
-         <div id="scroller" align="center" style="width:80%; height:100%; float:left;>
+         <div id="scroller" align="center" style="width:33%; height:100%; float:left>
         <label for="towns">Choose the town:</label><br>
             <select name="towns">
                 <option value="town01">Town01</option>
@@ -63,7 +63,7 @@ function myFunction() {
                 <option value="town07">Town07</option>
             </select>
          </div>
-         <div id="right_portion" align="center" style="float:right; width:10%; height:10%;>
+         <div id="right_portion" align="center" style="float:right; width:33%; height:10%>
         <label for="towns">Choose the town:</label><br>
             <select name="towns">
                 <option value="town01">Town01</option>
