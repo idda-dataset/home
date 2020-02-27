@@ -9,14 +9,15 @@ feature_row:
   - image_path: assets/images/avatar1.jpeg
     alt: "placeholder image 1"
     title: "Antonio Tavera"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "PhD Student in Deep Learning and Computer Vision at **Politecnico di Torino** and **Italdesign**"
+    url: "mailto:antonio.tavera@polito.it"
     btn_label: "Contact me"
     btn_class: "btn--info"
   - image_path: /assets/images/avatar2.jpeg
     alt: "placeholder image 2"
     title: "Emanuele Alberti"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "mailto:indirizzo@email.com"
+    excerpt: "PhD Student in Deep Learning and Computer Vision"
+    url: "mailto:emanuele.alberti@polito.it"
     btn_label: "Contact Me"
     btn_class: "btn--info"
   
