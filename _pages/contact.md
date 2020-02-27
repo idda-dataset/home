@@ -4,7 +4,7 @@ layout: archive
 toc: false
 classes: wide
 author_profile: false
-title: "Keep in touch"
+title: "Contact the team"
 feature_row:
   - image_path: assets/images/avatar1.jpeg
     alt: "placeholder image 1"
