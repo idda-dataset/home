@@ -35,7 +35,7 @@ function myFunction() {
     <label for="company">Organization:</label><br>
     <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset:</label><br>
-    <input type="text" id="reason" style="border: none; border-bottom: 0.01em solid gray; width: 50%;" required><br>
+    <input type="text" id="reason" style="border: none; border-bottom: 0.01em solid gray; height: 150%;" required><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
