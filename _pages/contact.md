@@ -25,5 +25,5 @@ feature_row:
 
 
 {% include feature_row id="intro" type="center" %}
-
+Please contact us for any question, information or feedback by pressing the button
 {% include feature_row %}
