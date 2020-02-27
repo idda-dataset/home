@@ -54,7 +54,7 @@ function myFunction() {
                 <option value="town06">Town 06</option>
                 <option value="town07">Town 07</option>
             </select>
-            <br>
+            <br><br>
             Weather and illumination condition:
             <select name="weather">
                 <option value=""></option>
@@ -62,7 +62,7 @@ function myFunction() {
                 <option value="weather2">Clear Sunset</option>
                 <option value="weather3">Hard Rain Noon</option>
             </select>
-            <br>
+            <br><br>
             Vehicle Viewpoint:
             <select name="viewpoint">
                 <option value=""></option>
@@ -72,7 +72,7 @@ function myFunction() {
                 <option value="volkswagen">Volkswagen T2</option>
                 <option value="bus">Bus</option>
             </select>
-            <br>
+            <br><br>
         </div>
     </div>
     <br>
