@@ -24,7 +24,7 @@ function myFunction() {
 <div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
-    <legend>Compile this form to request the dataset or a single split</legend>
+    <legend><b>Compile this form to request the dataset or a single split</b></legend>
     <label for="fname">Name:</label><br>
     <input type="text" id="fname" required><br>
     <label for="lname">Surname:</label><br>
@@ -75,8 +75,8 @@ function myFunction() {
             <br>
         </div>
     </div>
-    <br>
-    <input type="submit" value="Request" class="btn--disabled">
+    <br/>
+    <input type="submit" value="Request" class="btn--disabled"/>
   </fieldset>
 </form>
 </div>
