@@ -1,6 +1,6 @@
 Antonio Tavera:
   name        : "Antonio Tavera"
-  bio         : "PhD Student at Politecnico di Torino. Working on Semantic Segmentation applied to Autonomous Driving"
+  bio         : "PhD Student in Deep Learning and Computer Vision at Politecnico di Torino and Italdesign"
   avatar      : "/assets/images/bio-photo-tavera.jpg"
   links:
     - label: "Email"
@@ -12,7 +12,7 @@ Antonio Tavera:
 
 Emanuele Alberti:
   name        : "Emanuele Alberti"
-  bio         : "PhD Student at Politecnico di Torino."
+  bio         : "PhD Student in Deep Learning and Computer Vision at Politecnico di Torino"
   avatar      : "/assets/images/bio-photo-alberti.jpg"
   links:
     - label: "Email"
