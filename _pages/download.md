@@ -21,7 +21,7 @@ function myFunction() {
 }
 </script>
 
-
+<div style="width: 400px; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
     <legend>Compile this form to request the dataset or a split</legend>
@@ -44,7 +44,7 @@ function myFunction() {
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
             <label for="towns">Town:</label>
-            <select name="towns">
+            <select name="towns" required>
                 <option value=""></option>
                 <option value="town01">Town 01</option>
                 <option value="town02">Town 02</option>
@@ -56,7 +56,7 @@ function myFunction() {
             </select>
             <br>
             <label for="weather">Weather and illumination condition:</label>
-            <select name="weather">
+            <select name="weather" required>
                 <option value=""></option>
                 <option value="weather1">Clear Noon</option>
                 <option value="weather2">Clear Sunset</option>
@@ -64,7 +64,7 @@ function myFunction() {
             </select>
             <br>
             <label for="viewpoint">Vehicle Viewpoint:</label>
-            <select name="viewpoint">
+            <select name="viewpoint" required>
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
                 <option value="mustang">Ford Mustang</option>
@@ -79,7 +79,7 @@ function myFunction() {
     <input type="submit" value="Request" class="btn--disabled">
   </fieldset>
 </form>
-
+<\div>x
 <br>
 <br>
 <br>
