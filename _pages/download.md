@@ -9,7 +9,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/download.jpg
 ---
-{%
+```php
+<?php
 function yesnoCheck(that) {
     if (that.value == "no") {
         document.getElementById("ifYes").style.display = "block";
@@ -17,7 +18,8 @@ function yesnoCheck(that) {
         document.getElementById("ifYes").style.display = "none";
     }
 }
-%}
+?>
+```
 
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
