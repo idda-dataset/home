@@ -21,21 +21,21 @@ function myFunction() {
 }
 </script>
 
-<div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 8px 8px #CCCCCC;">
+<div style="word-wrap: break-word; width:auto; margin: auto; padding: 16px; box-shadow: 5px 8px 8px #CCCCCC;" >
 <form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
     <legend><b>Compile this form to request the dataset or a single split</b></legend>
     <p><br><br><br></p>
     <label for="fname">Name:</label><br>
-    <input type="text" id="fname" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="text" id="fname" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="lname">Surname:</label><br>
-    <input type="text" id="lname" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="text" id="lname" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="email" id="email" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Organization:</label><br>
-    <input type="text" id="company" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;"><br>
+    <input type="text" id="company" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset:</label><br>
-    <input type="text" id="reason" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray; height: 150px;" required><br>
+    <input type="text" id="reason" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray; height: 150px;" required><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
