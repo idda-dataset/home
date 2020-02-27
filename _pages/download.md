@@ -27,3 +27,14 @@ header:
     <input type="submit" value="Send" class="btn--info">
   </fieldset>
 </form>
+
+<? php
+function yesnoCheck(that) {
+    if (that.value == "other") {
+  alert("check");
+        document.getElementById("ifYes").style.display = "block";
+    } else {
+        document.getElementById("ifYes").style.display = "none";
+    }
+}
+?>
