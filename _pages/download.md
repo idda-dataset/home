@@ -22,7 +22,7 @@ function myFunction() {
 </script>
 
 <div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+<form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
     <legend>Compile this form to request the dataset or a single split</legend>
     <label for="fname">Name:</label><br>
