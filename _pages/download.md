@@ -29,7 +29,7 @@ function yesnoCheck(that) {
     Do you want the whole dataset?<br>
     <select onchange="yesnoCheck(this);">
         <option value=""></option>
-        <option value="yes">Yes/option>
+        <option value="yes">Yes</option>
         <option value="no">No</option>
     </select>
     <div id="ifYes" style="display: none;">
