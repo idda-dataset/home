@@ -27,15 +27,15 @@ function myFunction() {
     <legend><b>Compile this form to request the dataset or a single split</b></legend>
     <p><br><br><br></p>
     <label for="fname">Name:</label><br>
-    <input type="text" id="fname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="text" id="fname" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="lname">Surname:</label><br>
-    <input type="text" id="lname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="text" id="lname" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="email" id="email" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Organization:</label><br>
-    <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
+    <input type="text" id="company" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset:</label><br>
-    <input type="text" id="reason" style="border: none; border-bottom: 0.01em solid gray; height: 200px;" required><br>
+    <input type="text" id="reason" style="word-wrap: break-word; border: none; border-bottom: 0.01em solid gray; height: 200px;" required><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
