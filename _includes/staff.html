@@ -1,0 +1,17 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+
+<h1>Staff</h1>
+
+<ul>
+  {% for author in page.authors %}
+    <li>
+      <h2>{{ author.name }}</h2>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+{% endif %}
