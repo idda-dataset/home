@@ -33,8 +33,8 @@ last_modified_at: 2020-02-26T11:23:43+01:00
 - Pixel-wise Semantic annotation
 - Depth map
 - Semantic RGB Cityscapes-palette conversion
-- Depth Gray-scale
-- Logarithmic Depth Gray-scale
+- Depth Gray-scale conversion
+- Logarithmic Depth Gray-scale conversion
 
 ### Dataset Dimensions: 
 - 1,006,800 images for each data type
