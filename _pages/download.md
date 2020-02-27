@@ -2,7 +2,7 @@
 permalink: /download/
 layout: staff
 toc: false
-author_profile: false
+author_profile: true
 title: "Download"
 header:
   overlay_color: "#000"
