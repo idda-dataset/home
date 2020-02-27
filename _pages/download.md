@@ -78,7 +78,7 @@ function myFunction() {
             <br>
         </div>
     </div>
-    <p><br></p>
+    <p><br><br></p>
     <input type="submit" value="Request" class="btn--disabled"/>
   </fieldset>
 </form>
