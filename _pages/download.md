@@ -24,15 +24,15 @@ function myFunction() {
 <div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
-    <legend><b>Compile this form to request the dataset or a single split</b></legend>
+    <legend><b>Compile this form to request the dataset or a single split</b><br></legend>
     <label for="fname">Name:</label><br>
-    <input type="text" id="fname" required><br>
+    <input type="text" id="fname" style="border: none; border-bottom: 1px solid gray;" required><br>
     <label for="lname">Surname:</label><br>
-    <input type="text" id="lname" required><br>
+    <input type="text" id="lname" style="border: none; border-bottom: 1px solid gray;" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" required><br>
+    <input type="email" id="email" style="border: none; border-bottom: 1px solid gray;" required><br>
     <label for="company">Academy/Institution/Company name:</label><br>
-    <input type="text" id="company"><br>
+    <input type="text" id="company" style="border: none; border-bottom: 1px solid gray;"><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
