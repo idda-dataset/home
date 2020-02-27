@@ -11,14 +11,14 @@ feature_row:
     title: "Antonio Tavera"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     btn_label: "Contact me"
-    btn_class: "btn--inverse"
+    btn_class: "btn--info"
   - image_path: /assets/images/avatar2.jpeg
     alt: "placeholder image 2"
     title: "Emanuele Alberti"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "mailto:indirizzo@email.com"
     btn_label: "Contact Me"
-    btn_class: "btn--light-outline"
+    btn_class: "btn--info"
   
 ---
 
