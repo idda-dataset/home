@@ -35,7 +35,7 @@ function myFunction() {
     <label for="company">Organization:</label><br>
     <input type="text" id="company" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset:</label><br>
-    <input type="text" id="reason" style="word-wrap: break-word; word-break: break-all; border: none; border-bottom: 0.01em solid gray; height: 150px;" required><br>
+    <textarea name="reason" rows="5"></textarea><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
@@ -47,7 +47,7 @@ function myFunction() {
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
             <label for="towns">Town:</label>
-            <select name="towns" required>
+            <select name="towns">
                 <option value=""></option>
                 <option value="town01">Town 01</option>
                 <option value="town02">Town 02</option>
@@ -59,7 +59,7 @@ function myFunction() {
             </select>
             <br>
             <label for="weather">Weather and illumination condition:</label>
-            <select name="weather" required>
+            <select name="weather">
                 <option value=""></option>
                 <option value="weather1">Clear Noon</option>
                 <option value="weather2">Clear Sunset</option>
@@ -67,7 +67,7 @@ function myFunction() {
             </select>
             <br>
             <label for="viewpoint">Vehicle Viewpoint:</label>
-            <select name="viewpoint" required>
+            <select name="viewpoint">
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
                 <option value="mustang">Ford Mustang</option>
