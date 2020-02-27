@@ -21,7 +21,7 @@ function myFunction() {
 }
 </script>
 
-<div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 8px 8px #888888;">
+<div style="width:auto; margin: auto; padding: 16px; box-shadow: 5px 8px 8px #7a8288;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
   <fieldset>
     <legend><b>Compile this form to request the dataset or a single split</b><br></legend>
