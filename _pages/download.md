@@ -37,18 +37,17 @@ function myFunction() {
     </select>
     <p id="demo"></p>
     <div id="ifYes" style="display: none;">
-        <p>Create your own scenario</p><br>
+        <p>Create your own scenario</p>
         <label for="towns">Choose the town:</label><br>
-        <input list="towns" name="towns">
-        <datalist id="towns">
-            <option value="Town 01">
-            <option value="Town 02">
-            <option value="Town 03">
-            <option value="Town 04">
-            <option value="Town 05">
-            <option value="Town 06">
-            <option value="Town 07">
-        </datalist>
+        <select name="towns">
+            <option value="town01">Town01</option>
+            <option value="town02">Town02</option>
+            <option value="town03">Town03</option>
+            <option value="town04">Town04</option>
+            <option value="town05">Town05</option>
+            <option value="town06">Town06</option>
+            <option value="town07">Town07</option>
+        </select>
     </div>
   </fieldset>
 </form>
