@@ -5,6 +5,7 @@ toc: false
 classes: wide
 author_profile: false
 title: "Contact the team"
+excerpt: "Please contact us for any question, information or feedback."
 feature_row:
   - image_path: assets/images/avatar1.png
     alt: "placeholder image 1"
@@ -30,9 +31,9 @@ feature_row1:
     btn_class: "btn--info"
   - image_path: /assets/images/avatar2.png
     alt: "placeholder image 2"
-    title: "Emanuele Alberti"
-    excerpt: "PhD Student in Deep Learning and Computer Vision at **Politecnico di Torino**"
-    url: "mailto:emanuele.alberti@polito.it"
+    title: "Carlo Masone"
+    excerpt: ""
+    url: "mailto:carlomasone@italdesign.it"
     btn_label: "Contact Me"
     btn_class: "btn--info"
 ---
