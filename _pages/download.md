@@ -26,13 +26,13 @@ function myFunction() {
   <fieldset>
     <legend><b>Compile this form to request the dataset or a single split</b><br></legend>
     <label for="fname">Name:</label><br>
-    <input type="text" id="fname" style="border: none; border-bottom: 0.5px solid gray;" required><br>
+    <input type="text" id="fname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="lname">Surname:</label><br>
-    <input type="text" id="lname" style="border: none; border-bottom: 0.5px solid gray;" required><br>
+    <input type="text" id="lname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" style="border: none; border-bottom: 0.5px solid gray;" required><br>
+    <input type="email" id="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Academy/Institution/Company name:</label><br>
-    <input type="text" id="company" style="border: none; border-bottom: 0.5px solid gray;"><br>
+    <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
@@ -75,7 +75,7 @@ function myFunction() {
             <br>
         </div>
     </div>
-    <br/>
+    <p><br></p>
     <input type="submit" value="Request" class="btn--disabled"/>
   </fieldset>
 </form>
