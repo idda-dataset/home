@@ -9,7 +9,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/download.jpg
 ---
-<? php
+{%
 function yesnoCheck(that) {
     if (that.value == "no") {
         document.getElementById("ifYes").style.display = "block";
@@ -17,7 +17,7 @@ function yesnoCheck(that) {
         document.getElementById("ifYes").style.display = "none";
     }
 }
-?>
+%}
 
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
@@ -25,7 +25,7 @@ function yesnoCheck(that) {
     <label for="name">Name and Surname:</label><br>
     <input type="text" id="name"><br>
     <label for="email">Email:</label><br>
-    <input type="text" id="email"><br>
+    <input type="email" id="email"><br>
     Do you want the whole dataset?<br>
     <select onchange="yesnoCheck(this);">
         <option value=""></option>
@@ -33,7 +33,7 @@ function yesnoCheck(that) {
         <option value="no">No</option>
     </select>
     <div id="ifYes" style="display: none;">
-    <label for="car">Muu, mikä?</label> <input type="text" id="car" name="car" /><br />
+        <label for="car">Muu, mikä?</label> <input type="text" id="car" name="car" /><br />
     </div>
   </fieldset>
 </form>
