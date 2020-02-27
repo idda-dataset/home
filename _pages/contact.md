@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/avatar2.jpeg
     alt: "placeholder image 2"
     title: "Emanuele Alberti"
-    excerpt: "PhD Student in Deep Learning and Computer Vision"
+    excerpt: "PhD Student in Deep Learning and Computer Vision at **Politecnico di Torino**"
     url: "mailto:emanuele.alberti@polito.it"
     btn_label: "Contact Me"
     btn_class: "btn--info"
