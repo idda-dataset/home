@@ -21,7 +21,7 @@ function myFunction() {
 }
 </script>
 
-<div style="width: 400px; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
+<div style="width: 500px; margin: auto; padding: 16px; box-shadow: 5px 10px 18px #888888;">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
     <legend>Compile this form to request the dataset or a split</legend>
@@ -79,7 +79,7 @@ function myFunction() {
     <input type="submit" value="Request" class="btn--disabled">
   </fieldset>
 </form>
-<\div>x
+</div>
 <br>
 <br>
 <br>
