@@ -12,9 +12,10 @@ header:
 
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
-    <legend>Personalia:</legend>
+    <legend>For downloading t:</legend>
     Name: <input type="text" size="30"><br>
     Email: <input type="text" size="30"><br>
     Date of birth: <input type="text" size="10">
+    <input type="submit" value="Send" class="btn--info">
   </fieldset>
 </form>
