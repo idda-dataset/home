@@ -25,8 +25,10 @@ function myFunction() {
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
   <fieldset>
     <legend>Compile this form to request the dataset or a split</legend>
-    <label for="name">Name and Surname:</label><br>
-    <input type="text" id="name" required><br>
+    <label for="fname">Name:</label><br>
+    <input type="text" id="fname" required><br>
+    <label for="lname">Surname:</label><br>
+    <input type="text" id="lname" required><br>
     <label for="email">Email:</label><br>
     <input type="email" id="email" required><br>
     <label for="company">Academy/Institution/Company name:</label><br>
@@ -41,7 +43,7 @@ function myFunction() {
     <div id="ifYes" style="display: none;">
         <p>Create your own scenario</p>
         <div style="width:100%; height:100%;">
-            <div id="left_portion" align="center"  style="float:left; width:33%; height:100%">
+            <div id="left_portion" align="center"  style="float:left; width:20%; height:100%">
                 <label for="towns">Select the town:</label><br>
                 <select name="towns">
                     <option value=""></option>
@@ -54,7 +56,7 @@ function myFunction() {
                     <option value="town07">Town07</option>
                 </select>
             </div>
-            <div id="scroller" align="center" style="width:33%; height:100%; float:left">
+            <div id="scroller" align="center" style="width:60%; height:100%; float:left">
                 <label for="weather">Select the weather condition:</label><br>
                 <select name="weather">
                     <option value=""></option>
@@ -63,7 +65,7 @@ function myFunction() {
                     <option value="weather3">Hard Rain Noon</option>
                 </select>
             </div>
-            <div id="right_portion" align="center" style="float:right; width:33%; height:100%">
+            <div id="right_portion" align="center" style="float:right; height:100%">
             <label for="viewpoint">Select the viewpoint:</label><br>
                 <select name="viewpoint">
                     <option value=""></option>
@@ -80,6 +82,8 @@ function myFunction() {
   </fieldset>
 </form>
 
-
+<br>
+<br>
+<br>
 Dataset download will be available soon. You can now download a preview of IDDA following the [link](www.prova.com)
 {: .notice--warning}
