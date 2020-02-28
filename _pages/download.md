@@ -66,7 +66,7 @@ function myFunction() {
                 <option value="weather3">Hard Rain Noon</option>
             </select>
             <br>
-            <label for="viewpoint">Vehicle Viewpoint:</label>
+            <label for="viewpoint">Vehicle viewpoint:</label>
             <select name="viewpoint">
                 <option value=""></option>
                 <option value="audi">Audi TT</option>
