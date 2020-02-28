@@ -26,16 +26,16 @@ function myFunction() {
   <fieldset>
     <legend><b>Compile this form to request the dataset or a single split</b></legend>
     <p><br><br><br></p>
-    <label for="fname">Name:</label><br>
+    <label for="fname">Name*:</label><br>
     <input type="text" id="fname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="lname">Surname:</label><br>
+    <label for="lname">Surname*:</label><br>
     <input type="text" id="lname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
+    <input type="email" id="email*" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Organization:</label><br>
     <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
-    <label for="reason">Reason for use of dataset:</label><br>
-    <textarea id="reason" style="border: none; border-bottom: 0.01em solid gray;" rows="5"></textarea><br>
+    <label for="reason">Reason for use of dataset*:</label><br>
+    <textarea id="reason" style="border: none; border-bottom: 0.01em solid gray;" rows="5" required></textarea><br>
     Do you want the whole dataset?<br>
     <select id="mySelect" onchange="myFunction();" required>
         <option value=""></option>
@@ -87,5 +87,6 @@ function myFunction() {
 <br>
 <br>
 
+* Required field<br>
 Dataset download will be available soon. You can now download a preview of IDDA [here](www.prova.com)
 {: .notice--warning}
