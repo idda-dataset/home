@@ -14,10 +14,7 @@ header:
   {% include archive-single.html %}
 {% endfor %}
 
-{% include feature_row id="intro" type="center" %}
-
 ## The metric
-
 ### Performance evaluation
 To evaluate the performances of the treated methods we use the PASCAL VOC Intersection-over-Union (IoU), also known 
 as the Jaccard Index, that is essentially a method use to quantify the area of overlap between the predicted segmentation 
