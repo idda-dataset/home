@@ -1,6 +1,6 @@
 ---
 permalink: /benchmarks/
-layout: splash
+layout: single
 toc: false
 author_profile: false
 title: "Benchmarks"
