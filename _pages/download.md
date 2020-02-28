@@ -15,8 +15,10 @@ function myFunction() {
   var x = document.getElementById("mySelect").value;
   if (x == "yes"){
     document.getElementById("ifYes").style.display = "none";
+  }else if (x == ""){
+    document.getElementById("ifYes").style.display = "none";
   }else{
-  document.getElementById("ifYes").style.display = "block";
+    document.getElementById("ifYes").style.display = "block";
   }
 }
 </script>
