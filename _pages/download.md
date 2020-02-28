@@ -32,8 +32,8 @@ function myFunction() {
     <input type="text" id="fname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="lname">Surname*:</label><br>
     <input type="text" id="lname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email*" style="border: none; border-bottom: 0.01em solid gray;" required><br>
+    <label for="email">Email*:</label><br>
+    <input type="email" id="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Organization:</label><br>
     <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset*:</label><br>
@@ -89,6 +89,6 @@ function myFunction() {
 <br>
 <br>
 
-* Required field<br>
+*Required field<br>
 Dataset download will be available soon. You can now download a preview of IDDA [here](www.prova.com)
 {: .notice--warning}
