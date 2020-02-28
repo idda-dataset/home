@@ -1,5 +1,5 @@
 ---
-title: "Assessing IDDA"
+title: "IDDA vs IDDA"
 layout: archive
 toc: false
 classes: wide
