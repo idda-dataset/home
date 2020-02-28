@@ -1,5 +1,5 @@
 ---
-title: "Synthetic vs Real Dataset"
+title: "IDDA vs Real Dataset"
 layout: archive
 toc: false
 classes: wide
