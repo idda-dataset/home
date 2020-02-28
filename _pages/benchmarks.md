@@ -15,3 +15,8 @@ header:
 {% endfor %}
 
 {% include feature_row id="intro" type="center" %}
+
+
+# The metric 
+
+## 

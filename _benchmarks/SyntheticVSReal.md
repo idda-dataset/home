@@ -12,17 +12,7 @@ related: true
 ---
 {% include feature_row id="intro" type="center" %}
 
-I'm glad to introduce you IDDA, a new synthetic dataset thought for semantic segmentation applied to autonomous driving.
-The ItalDesign DAtaset, created in partnership with the [Italdesign](https://www.italdesign.it) company, once released, 
-will be the largest synthetic multi domain dataset developed to explicitly address the challenges of the domain 
-shift between source and target data.
-The variety that IDDA offers, from the several illumination and viewpoint conditions to the seven different towns, allows
-for a profound analysis and benchmarking of the performances of the current state-of-the-art
-semantic segmentation architectures, with a very strong focus on the domain adaptation task.
-<br>
-<br>
-The **News** section will be constantly updated with the latest information concerning IDDA, the new open challenges and the 
-further introduced benchmarks.
+
 {: style="text-align: justify;"}
 
 <!-- [^1]: Logo image courtesty of [Stefano Gardino](http://www.lovetextures.com/) -->
