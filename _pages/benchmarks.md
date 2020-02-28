@@ -1,6 +1,6 @@
 ---
 permalink: /benchmarks/
-layout: archive
+layout: splash
 toc: false
 author_profile: false
 title: "Benchmarks"
@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/benchmark.jpg
 ---
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.benchmarks limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
 

@@ -285,3 +285,12 @@ defaults:
       share: false
       classes: wide
       related: true
+  # _benchmarks
+  -scope:
+      path: ""
+      type: benchmarks
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
