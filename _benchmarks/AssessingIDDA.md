@@ -1,6 +1,8 @@
 ---
 title: "Assessing IDDA"
-layout: single
+layout: archive
+toc: false
+classes: wide
 author_profile: false
 read_time: false
 comments: false
