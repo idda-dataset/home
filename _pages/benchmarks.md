@@ -38,5 +38,6 @@ and a ResNet-101 [[3]](https://www.cv-foundation.org/openaccess/content_cvpr_201
 - we compute, in one case, the mean-feature vector for each domain and use it to measure the Euclidean and Cosine distance;
 - we compute, in the other case, the feature-wise Bhattacharaya distance;
 - additionally we use tSNE to project the features extracted from the ResNet-101 in a more comprehensible 2D dimensional space.<br><br>
-To reproduce our results we provide here the code both for the [[AlexNet]]() and the [[ResNet-101]]() with the tSNE computation included.
+To reproduce our results we provide here the code both for the [[AlexNet]](https://github.com/taveraantonio/tSNE_AlexNet) and 
+the [[ResNet-101]](https://github.com/taveraantonio/tSNE_ResNet) with the tSNE computation included.
 {: style="text-align: justify;"}
