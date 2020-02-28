@@ -10,7 +10,7 @@ share: false
 related: true
 
 ---
-
+{% include feature_row id="intro" type="center" %}
 
 I'm glad to introduce you IDDA, a new synthetic dataset thought for semantic segmentation applied to autonomous driving.
 The ItalDesign DAtaset, created in partnership with the [Italdesign](https://www.italdesign.it) company, once released, 
