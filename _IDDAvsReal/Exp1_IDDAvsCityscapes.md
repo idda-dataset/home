@@ -1,5 +1,5 @@
 ---
-title: "IDDA vs BDD100K"
+title: "IDDA vs Cityscapes"
 layout: archive
 toc: false
 classes: wide
@@ -60,28 +60,28 @@ layouts_gallery_worst:
     alt: "Source Worst Example"
     title: "Source Worst"
 layouts_gallery_target:
-  - url: /assets/images/iddavsbdd/target1.jpg
-    image_path: /assets/images/iddavsbdd/target1.jpg
+  - url: /assets/images/iddavscityscapes/target1.jpg
+    image_path: /assets/images/iddavscityscapes/target1.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/iddavsbdd/target2.jpg
-    image_path: /assets/images/iddavsbdd/target2.jpg
+  - url: /assets/images/iddavscityscapes/target2.jpg
+    image_path: /assets/images/iddavscityscapes/target2.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/iddavsbdd/target3.jpg
-    image_path: /assets/images/iddavsbdd/target3.jpg
+  - url: /assets/images/iddavscityscapes/target3.jpg
+    image_path: /assets/images/iddavscityscapes/target3.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/iddavsbdd/target4.jpg
-    image_path: /assets/images/iddavsbdd/target4.jpg
+  - url: /assets/images/iddavscityscapes/target4.jpg
+    image_path: /assets/images/iddavscityscapes/target4.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/iddavsbdd/target5.jpg
-    image_path: /assets/images/iddavsbdd/target5.jpg
+  - url: /assets/images/iddavscityscapes/target5.jpg
+    image_path: /assets/images/iddavscityscapes/target5.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/iddavsbdd/target6.jpg
-    image_path: /assets/images/iddavsbdd/target6.jpg
+  - url: /assets/images/iddavscityscapes/target6.jpg
+    image_path: /assets/images/iddavscityscapes/target6.jpg
     alt: "Target Example"
     title: "Target"
 
@@ -219,7 +219,7 @@ two different IDDA distributions, one more similar and close to the real dataset
     <td class="tg-yk9p">mIoU (%)</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="5">IDDA Worst Case Scenario<br>vs<br>BDD100K </td>
+    <td class="tg-yk9p" rowspan="5">IDDA Best Case Scenario<br>vs<br>BDD100K </td>
     <td class="tg-g1sy">AlexNet</td>
     <td class="tg-yk9p">17,7608</td>
     <td class="tg-g1sy">1,5726</td>

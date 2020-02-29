@@ -219,7 +219,7 @@ two different IDDA distributions, one more similar and close to the real dataset
     <td class="tg-yk9p">mIoU (%)</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="5">IDDA Worst Case Scenario<br>vs<br>BDD100K </td>
+    <td class="tg-yk9p" rowspan="5">IDDA Best Case Scenario<br>vs<br>BDD100K </td>
     <td class="tg-g1sy">AlexNet</td>
     <td class="tg-yk9p">17,7608</td>
     <td class="tg-g1sy">1,5726</td>
