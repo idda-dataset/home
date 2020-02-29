@@ -7,7 +7,7 @@ author_profile: false
 read_time: false
 comments: false
 share: false
-related: true
+related: false
 
 layouts_gallery_source:
   - url: /assets/images/viewpointchange_1/source1.jpg
