@@ -222,39 +222,39 @@ two different IDDA distributions, one more similar and close to the real dataset
     <td class="tg-yk9p">mIoU (%)</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="5">IDDA Best Case Scenario<br>vs<br>BDD100K </td>
+    <td class="tg-yk9p" rowspan="5">IDDA Worst Case Scenario<br>vs<br>Mapillary Vistas</td>
     <td class="tg-g1sy">AlexNet</td>
-    <td class="tg-yk9p">17,7608</td>
-    <td class="tg-g1sy">1,5726</td>
-    <td class="tg-yk9p">0,0365</td>
+    <td class="tg-yk9p">15,3297</td>
+    <td class="tg-g1sy">1,0612</td>
+    <td class="tg-yk9p">0,0348</td>
     <td class="tg-z8x8">without <br>domain <br>adaptation</td>
     <td class="tg-4dm3">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf">[1]</a></td>
     <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">17,48</td>
+    <td class="tg-yk9p">27,09</td>
   </tr>
   <tr>
     <td class="tg-g1sy" rowspan="4">ResNet-101</td>
-    <td class="tg-yk9p" rowspan="4">8,3455</td>
-    <td class="tg-g1sy" rowspan="4">1,6567</td>
-    <td class="tg-yk9p" rowspan="4">0,0445</td>
+    <td class="tg-yk9p" rowspan="4">7,7273</td>
+    <td class="tg-g1sy" rowspan="4">1,4082</td>
+    <td class="tg-yk9p" rowspan="4">0,0378</td>
     <td class="tg-z8x8" rowspan="4">with <br>domain<br>adaptation</td>
     <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[2]</a></td>
     <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">23,45</td>
+    <td class="tg-8ot9">32,57</td>
   </tr>
   <tr>
     <td class="tg-0pky">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf">[3]</a></td>
     <td class="tg-abip">(soon)</td>
-    <td class="tg-c3ow">27,04</td>
+    <td class="tg-c3ow">30,26</td>
   </tr>
   <tr>
     <td class="tg-4dm3">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf">[4]</a></td>
     <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">30,70</td>
+    <td class="tg-yk9p">30,88</td>
   </tr>
   <tr>
     <td class="tg-8jvv">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[5]</a></td>
     <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">31,37</td>
+    <td class="tg-8ot9">33,72</td>
   </tr>
 </table>
