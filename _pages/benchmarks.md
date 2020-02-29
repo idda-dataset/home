@@ -10,13 +10,11 @@ header:
   overlay_image: /assets/images/benchmark.jpg
 ---
 # IDDA vs IDDA
-{% include feature_row id="intro" type="center" %}
 {% for post in site.IDDAvsIDDA limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
 
-# IDDA vs IDDA
-{% include feature_row id="intro" type="center" %}
+# IDDA vs Real Dataset
 {% for post in site.IDDAvsReal limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}

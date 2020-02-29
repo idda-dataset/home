@@ -263,7 +263,9 @@ collections:
   IDDAvsIDDA:
     output: true
     permalink: /:collection/:path/
-
+  IDDAvsReal:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
