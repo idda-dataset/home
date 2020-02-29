@@ -9,31 +9,51 @@ comments: false
 share: false
 related: true
 
-layouts_gallery1:
-  - url: /assets/images/RGB.jpg
-    image_path: /assets/images/RGB.jpg
+layouts_gallery_source:
+  - url: /assets/images/viewpointchange_1/source1.jpg
+    image_path: /assets/images/viewpointchange_1/source1.jpg
+    alt: "Source Example"
+  - url: /assets/images/viewpointchange_1/source2.jpg
+    image_path: /assets/images/viewpointchange_1/source2.jpg
+    alt: "Source Example"
+  - url: /assets/images/viewpointchange_1/source3.jpg
+    image_path: /assets/images/viewpointchange_1/source3.jpg
+    alt: "Source Example"
+  - url: /assets/images/viewpointchange_1/source4.jpg
+    image_path: /assets/images/viewpointchange_1/source4.jpg
+    alt: "Source Example"
+  - url: /assets/images/viewpointchange_1/source5.jpg
+    image_path: /assets/images/viewpointchange_1/source5.jpg
+    alt: "Source Example"
+  - url: /assets/images/viewpointchange_1/source6.jpg
+    image_path: /assets/images/viewpointchange_1/source6.jpg
+    alt: "Source Example"
+layouts_gallery_target:
+  - url: /assets/images/viewpointchange_1/source1.jpg
+    image_path: /assets/images/viewpointchange_1/source1.jpg
     alt: "RGB Image Example"
-    title: "RGB Image Example"
-  - url: /assets/images/Semantic.jpg
-    image_path: /assets/images/Semantic.jpg
+  - url: /assets/images/viewpointchange_1/source1.jpg
+    image_path: /assets/images/viewpointchange_1/source1.jpg
     alt: "Semantic Image Example"
-    title: "Semantic Image Example"
-  - url: /assets/images/Depth.jpg
-    image_path: /assets/images/Depth.jpg
+  - url: /assets/images/viewpointchange_1/source1.jpg
+    image_path: /assets/images/viewpointchange_1/source1.jpg
     alt: "Depth Image Example"
-    title: "Depth Image Example"
-
 ---
 {% include feature_row id="intro" type="center" %}
 
 ## EXPERIMENT 1<br>Viewpoint Change
 
 ### Source Scenario: 
-Town 01, Clear Sunset, Audi TT
-{% include gallery id="layouts_gallery1" caption="Click to see some sample taken from the source scenario." %}
+- Environment: Town 01
+- Weather and illumination condition: Clear Sunset
+- Viewpoint: Audi TT
+{% include gallery id="layouts_gallery_source" caption="Click to see some sample taken from the source scenario." %}
 
-### Target/Test Scenario:<br>Town01, Clear Sunset, Jeep Wrangler Rubicon
-{% include gallery id="layouts_gallery1" caption="Click to see some sample taken from the target/test scenario." %}
+### Target/Test Scenario:
+- Environment: Town 01
+- Weather and illumination condition: Clear Sunset
+- Viewpoint: Jeep Wrangler Rubicon
+{% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
 
 ### Results
 <style type="text/css">
