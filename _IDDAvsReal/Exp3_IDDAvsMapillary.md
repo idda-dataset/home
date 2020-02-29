@@ -114,7 +114,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 - Environment: images taken from various cities around the world
 - Weather and illumination condition: sun, rain, snow, fog, haze, dawn, daylight, dusk, night
 - Viewpoints: different capturing viewpoints
-- Target train set size (only with DA): 18000
+- Target train set size (only with domain adaptation): 18000
 - Test size: 2000
 {% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
 

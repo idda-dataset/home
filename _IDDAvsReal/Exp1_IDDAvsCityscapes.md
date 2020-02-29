@@ -114,7 +114,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 - Environment: 50 German cities
 - Weather and illumination condition: good and medium weather conditions
 - Viewpoint: a common sedan
-- Target train set size (only with DA): 2975
+- Target train set size (only with domain adaptation): 2975
 - Test size: 499
 {% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
 
