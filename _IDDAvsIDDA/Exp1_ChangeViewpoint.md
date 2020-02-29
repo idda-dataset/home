@@ -1,6 +1,6 @@
 ---
 title: "Viewpoint Change"
-layout: posts
+layout: single
 toc: false
 classes: wide
 author_profile: false
