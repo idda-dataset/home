@@ -64,13 +64,14 @@ last_modified_at: 2020-02-29T14:47:43+01:00
 ---
 {% include feature_row id="intro" type="center" %}
 
-## EXPERIMENT 1<br>Viewpoint Change
-It tests the generalization and adaptation performances of the semantic segmentation networks when moving from a lower to an 
-higher perspective, with a different shape of the hood. The distance between the source and target scenario is low so, as a consequence, the task is easy. 
+## EXPERIMENT 2<br>From a city to a bucolic country
+It tests the generalization and adaptation performances of the semantic segmentation networks when we change completely the environment, 
+moving from a city to a countryside. The distance between the source and target scenario is high so, as a consequence, the task is difficult. 
+The task is even more challenging due to the rain condition
 
 ### Source Scenario: 
 - Environment: Town 01
-- Weather and illumination condition: Clear Sunset
+- Weather and illumination condition: Hard Rain Noon
 - Viewpoint: Audi TT
 - Source train set size: 10044
 {% include gallery id="layouts_gallery_source" caption="Click to see some sample taken from the source scenario." %}

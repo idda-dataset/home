@@ -64,7 +64,7 @@ last_modified_at: 2020-02-29T14:47:43+01:00
 ---
 {% include feature_row id="intro" type="center" %}
 
-## EXPERIMENT 1<br>Viewpoint Change
+## EXPERIMENT 1<br>From lower to higher viewpoint
 It tests the generalization and adaptation performances of the semantic segmentation networks when moving from a lower to an 
 higher perspective, with a different shape of the hood. The distance between the source and target scenario is low so, as a consequence, the task is easy. 
 
