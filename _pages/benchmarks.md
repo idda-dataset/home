@@ -45,6 +45,6 @@ the [[ResNet-101]](https://github.com/taveraantonio/tSNE_ResNet) with the tSNE c
 {: style="text-align: justify;"}
 
 
-The page will be constantly updated as soon as new benchmarks will be performed. To whoever wants to submit its results 
-will be soon deployed a dedicated page.
+This section and all of its subsections will be constantly updated as soon as new benchmarks will be performed. 
+<br>To whoever wants to submit its results will be soon deployed a dedicated page.
 {: .notice--info}
