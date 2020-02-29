@@ -9,12 +9,29 @@ comments: false
 share: false
 related: true
 
+layouts_gallery1:
+  - url: /assets/images/RGB.jpg
+    image_path: /assets/images/RGB.jpg
+    alt: "RGB Image Example"
+    title: "RGB Image Example"
+  - url: /assets/images/Semantic.jpg
+    image_path: /assets/images/Semantic.jpg
+    alt: "Semantic Image Example"
+    title: "Semantic Image Example"
+  - url: /assets/images/Depth.jpg
+    image_path: /assets/images/Depth.jpg
+    alt: "Depth Image Example"
+    title: "Depth Image Example"
+
 ---
 {% include feature_row id="intro" type="center" %}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit quis magna. Praesent sit amet ligula id orci venenatis auctor. Phasellus porttitor, metus non tincidunt dapibus, orci pede pretium neque, sit amet adipiscing ipsum lectus et libero. Aenean bibendum. Curabitur mattis quam id urna. Vivamus dui. Donec nonummy lacinia lorem. Cras risus arcu, sodales ac, ultrices ac, mollis quis, justo. Sed a libero. Quisque risus erat, posuere at, tristique non, lacinia quis, eros.
+# EXPERIMENT 1
+## Viewpoint Change
 
-Cras volutpat, lacus quis semper pharetra, nisi enim dignissim est, et sollicitudin quam ipsum vel mi. Sed commodo urna ac urna. Nullam eu tortor. Curabitur sodales scelerisque magna. Donec ultricies tristique pede. Nullam libero. Nam sollicitudin felis vel metus. Nullam posuere molestie metus. Nullam molestie, nunc id suscipit rhoncus, felis mi vulputate lacus, a ultrices tortor dolor eget augue. Aenean ultricies felis ut turpis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse placerat tellus ac nulla. Proin adipiscing sem ac risus. Maecenas nisi. Cras semper.
-{: style="text-align: justify;"}
+### Source Scenario: Town01, Clear Sunset, Audi TT
+{% include gallery id="layouts_gallery1" caption="Click to see some sample taken from the source scenario." %}
 
+### Target/Test Scenario: Town01, Clear Sunset, Jeep Wrangler Rubicon
+{% include gallery id="layouts_gallery1" caption="Click to see some sample taken from the target/test scenario." %}
 
