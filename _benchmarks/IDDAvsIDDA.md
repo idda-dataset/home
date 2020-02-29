@@ -26,10 +26,10 @@ layouts_gallery1:
 ---
 {% include feature_row id="intro" type="center" %}
 
-# EXPERIMENT 1
-## Viewpoint Change
+## EXPERIMENT 1 <br>x Viewpoint Change
 
-### Source Scenario: Town01, Clear Sunset, Audi TT
+### Source Scenario: 
+Town01, Clear Sunset, Audi TT
 {% include gallery id="layouts_gallery1" caption="Click to see some sample taken from the source scenario." %}
 
 ### Target/Test Scenario: Town01, Clear Sunset, Jeep Wrangler Rubicon
