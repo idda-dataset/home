@@ -1,13 +1,13 @@
 ---
 title: "IDDA vs Mapillary Vistas"
-layout: archive
+layout: single
 toc: false
 classes: wide
 author_profile: false
 read_time: false
 comments: false
 share: false
-related: true
+related: false
 
 layouts_gallery_best:
   - url: /assets/images/iddavsbdd/source_best1.jpg

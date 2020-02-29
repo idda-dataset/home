@@ -1,13 +1,13 @@
 ---
 title: "Town Change"
-layout: archive
+layout: single
 toc: false
 classes: wide
 author_profile: false
 read_time: false
 comments: false
 share: false
-related: true
+related: false
 
 layouts_gallery_source:
   - url: /assets/images/townchange_2/source1.jpg
