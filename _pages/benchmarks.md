@@ -11,7 +11,7 @@ header:
 ---
 # IDDA vs IDDA
 
-{% for post in site.benchmarks.iddavsidda limit: 5 %}
+{% for iddavsidda in site.categories.iddavsidda limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
 
