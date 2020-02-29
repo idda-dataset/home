@@ -110,7 +110,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 {% include gallery id="layouts_gallery_worst" caption="Click to see some sample taken from the worst source scenario." %}
 
 ### Target/Test Scenario:
-- Dataset: BDD100k
+- Dataset: BDD100K
 - Environment: 2 cities, New York and San Francisco
 - Weather and illumination condition: various weathers, different time of the day
 - Viewpoints: different drivers
