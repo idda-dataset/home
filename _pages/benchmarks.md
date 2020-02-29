@@ -43,3 +43,8 @@ and a ResNet-101 [[3]](https://www.cv-foundation.org/openaccess/content_cvpr_201
 To reproduce our results we provide **here the code** both for the [[AlexNet]](https://github.com/taveraantonio/tSNE_AlexNet) and 
 the [[ResNet-101]](https://github.com/taveraantonio/tSNE_ResNet) with the tSNE computation included.
 {: style="text-align: justify;"}
+
+
+The page will be constantly updated as soon as new benchmarks will be performed. To whoever wants to submit its results 
+will be soon deployed a dedicated page.
+{: .notice--info}
