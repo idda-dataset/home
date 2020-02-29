@@ -259,11 +259,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  iddavsidda:
-    output: true
-    permalink: /:collection/:path/
-
 # Defaults
 defaults:
   # _posts
