@@ -1,5 +1,5 @@
 ---
-title: "IDDA vs IDDA"
+title: "Viewpoint Change"
 layout: archive
 toc: false
 classes: wide
