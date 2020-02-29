@@ -88,43 +88,37 @@ higher perspective, with a different shape of the hood. The distance between the
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-76ut{background-color:#f9f9f9;font-size:15px;text-align:center;vertical-align:middle}
-.tg .tg-oiyu{font-size:15px;text-align:left;vertical-align:middle}
 .tg .tg-g1sy{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
 .tg .tg-8jvv{font-size:15px;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-8goc{font-size:15px;text-align:center;vertical-align:middle}
-.tg .tg-cbs6{font-size:15px;text-align:left;vertical-align:top}
-.tg .tg-2uvt{background-color:#f9f9f9;font-size:15px;text-align:left;vertical-align:middle}
 .tg .tg-yk9p{font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-4dm3{font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
 .tg .tg-z8x8{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-4dm3{font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
 .tg .tg-envh{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-8b2w{background-color:#f9f9f9;font-style:italic;font-size:15px;text-align:left;vertical-align:top}
-.tg .tg-vncu{font-size:15px;font-family:serif !important;;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-s4kj{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-vncu{font-size:15px;font-family:serif !important;;border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-8goc" rowspan="2">Experiment </th>
-    <th class="tg-cbs6" colspan="4">Distance</th>
-    <th class="tg-cbs6" colspan="4">Performance Evaluation</th>
+    <th class="tg-yk9p" rowspan="2">Experiment </th>
+    <th class="tg-8jvv" colspan="4">Distance</th>
+    <th class="tg-8jvv" colspan="4">Performance Evaluation</th>
   </tr>
   <tr>
-    <td class="tg-2uvt">Network</td>
+    <td class="tg-z8x8">Network</td>
     <td class="tg-yk9p">Euclidean<br>distance</td>
     <td class="tg-g1sy">Cosine<br>distance</td>
     <td class="tg-yk9p">Bhattacharaya<br>distance</td>
-    <td class="tg-76ut" colspan="2">Network</td>
+    <td class="tg-g1sy" colspan="2">Network</td>
     <td class="tg-g1sy">Code Available</td>
     <td class="tg-yk9p">mIoU (%)</td>
   </tr>
   <tr>
     <td class="tg-yk9p" rowspan="8">Town 01, Clear Sunset, AudiTT<br>vs<br>Town 01, Clear Sunset, Jeep</td>
-    <td class="tg-76ut" rowspan="4">AlexNet</td>
+    <td class="tg-g1sy" rowspan="4">AlexNet</td>
     <td class="tg-4dm3" rowspan="4">5,6652</td>
     <td class="tg-z8x8" rowspan="4">0,1669</td>
     <td class="tg-4dm3" rowspan="4">0,0155</td>
-    <td class="tg-2uvt" rowspan="4">without<br>domain<br>adaptation </td>
+    <td class="tg-z8x8" rowspan="4">without<br>domain<br>adaptation </td>
     <td class="tg-4dm3">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf">[1]</a></td>
     <td class="tg-envh"><span style="font-style:italic">(soon)</span></td>
     <td class="tg-4dm3">62,60</td>
@@ -145,14 +139,14 @@ higher perspective, with a different shape of the hood. The distance between the
     <td class="tg-4dm3">66,88</td>
   </tr>
   <tr>
-    <td class="tg-76ut" rowspan="4">ResNet-101</td>
-    <td class="tg-oiyu" rowspan="4">2,8014</td>
-    <td class="tg-2uvt" rowspan="4">0,2937</td>
-    <td class="tg-oiyu" rowspan="4">0,0170</td>
-    <td class="tg-2uvt" rowspan="4">with<br>domain<br>adaptation</td>
-    <td class="tg-cbs6">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[5]</a></td>
-    <td class="tg-8b2w">(soon)</td>
-    <td class="tg-cbs6">66,42</td>
+    <td class="tg-g1sy" rowspan="4">ResNet-101</td>
+    <td class="tg-4dm3" rowspan="4">2,8014</td>
+    <td class="tg-z8x8" rowspan="4">0,2937</td>
+    <td class="tg-4dm3" rowspan="4">0,0170</td>
+    <td class="tg-z8x8" rowspan="4">with<br>domain<br>adaptation</td>
+    <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[5]</a></td>
+    <td class="tg-s4kj">(soon)</td>
+    <td class="tg-8jvv">66,42</td>
   </tr>
   <tr>
     <td class="tg-vncu">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf">[6]</a></td>
@@ -165,8 +159,8 @@ higher perspective, with a different shape of the hood. The distance between the
     <td class="tg-4dm3">70,30</td>
   </tr>
   <tr>
-    <td class="tg-cbs6">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[8]</a></td>
-    <td class="tg-8b2w">(soon)</td>
-    <td class="tg-cbs6">73,64</td>
+    <td class="tg-8jvv">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[8]</a></td>
+    <td class="tg-s4kj">(soon)</td>
+    <td class="tg-8jvv">73,64</td>
   </tr>
 </table>
