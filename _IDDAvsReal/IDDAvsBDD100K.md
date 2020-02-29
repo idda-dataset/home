@@ -10,30 +10,55 @@ share: false
 related: true
 
 layouts_gallery_best:
-  - url: /assets/images/iddavsbdd/source1.jpg
-    image_path: /assets/images/iddavsbdd/source1.jpg
+  - url: /assets/images/iddavsbdd/source_best1.jpg
+    image_path: /assets/images/iddavsbdd/source_best1.jpg
+    alt: "Source Best Example"
+    title: "Source Best"
+  - url: /assets/images/iddavsbdd/source_best2.jpg
+    image_path: /assets/images/iddavsbdd/source_best2.jpg
+    alt: "Source Best Example"
+    title: "Source Best"
+  - url: /assets/images/iddavsbdd/source_best3.jpg
+    image_path: /assets/images/iddavsbdd/source_best3.jpg
     alt: "Source Example"
-    title: "Source"
-  - url: /assets/images/iddavsbdd/source2.jpg
-    image_path: /assets/images/iddavsbdd/source2.jpg
+    title: "Source Best"
+  - url: /assets/images/iddavsbdd/source_best4.jpg
+    image_path: /assets/images/iddavsbdd/source_best4.jpg
     alt: "Source Example"
-    title: "Source"
-  - url: /assets/images/iddavsbdd/source3.jpg
-    image_path: /assets/images/iddavsbdd/source3.jpg
+    title: "Source Best"
+  - url: /assets/images/iddavsbdd/source_best5.jpg
+    image_path: /assets/images/iddavsbdd/source_best5.jpg
     alt: "Source Example"
-    title: "Source"
-  - url: /assets/images/iddavsbdd/source4.jpg
-    image_path: /assets/images/iddavsbdd/source4.jpg
+    title: "Source Best"
+  - url: /assets/images/iddavsbdd/source_best6.jpg
+    image_path: /assets/images/iddavsbdd/source_best6.jpg
     alt: "Source Example"
-    title: "Source"
-  - url: /assets/images/iddavsbdd/source5.jpg
-    image_path: /assets/images/iddavsbdd/source5.jpg
-    alt: "Source Example"
-    title: "Source"
-  - url: /assets/images/iddavsbdd/source6.jpg
-    image_path: /assets/images/iddavsbdd/source6.jpg
-    alt: "Source Example"
-    title: "Source"
+    title: "Source Best"
+layouts_gallery_worst:
+  - url: /assets/images/iddavsbdd/source_worst1.jpg
+    image_path: /assets/images/iddavsbdd/source_worst1.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
+  - url: /assets/images/iddavsbdd/source_worst2.jpg
+    image_path: /assets/images/iddavsbdd/source_worst2.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
+  - url: /assets/images/iddavsbdd/source_worst3.jpg
+    image_path: /assets/images/iddavsbdd/source_worst3.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
+  - url: /assets/images/iddavsbdd/source_worst4.jpg
+    image_path: /assets/images/iddavsbdd/source_worst4.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
+  - url: /assets/images/iddavsbdd/source_worst5.jpg
+    image_path: /assets/images/iddavsbdd/source_worst5.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
+  - url: /assets/images/iddavsbdd/source_worst6.jpg
+    image_path: /assets/images/iddavsbdd/source_worst6.jpg
+    alt: "Source Worst Example"
+    title: "Source Worst"
 layouts_gallery_target:
   - url: /assets/images/iddavsbdd/target1.jpg
     image_path: /assets/images/iddavsbdd/target1.jpg
@@ -66,8 +91,8 @@ last_modified_at: 2020-02-29T14:47:43+01:00
 
 ## EXPERIMENT 1<br>From IDDA to BDD100K
 It tests how well the networks trained with images taken from the synthetic world adapt to the real one and how the different distribution 
-of data in IDDA affect the performance in a real target domain. To do so we repeated the experiment two times considering as source domain 
-two different IDDA distributions, one more similar and close to the real dataset (best case), the other much more different amd faraway (worst case).
+of data in IDDA affect the performance in the real target domain. To do so, we repeated the experiment two times considering as source domain 
+two different IDDA distributions, one more similar and close to the real dataset (best case), the other much more different and faraway (worst case).
 
 
 ### Source Scenario: 
@@ -76,13 +101,13 @@ two different IDDA distributions, one more similar and close to the real dataset
 - Weather and illumination condition: Clear Noon
 - Viewpoint: Audi TT, Ford Mustang
 - Source train set size: 29952
-{% include gallery id="layouts_gallery_source" caption="Click to see some sample taken from the source scenario." %}
+{% include gallery id="layouts_gallery_best" caption="Click to see some sample taken from the best source scenario." %}
 #### Worst case scenario
 - Environment: Town 07
 - Weather and illumination condition: Hard Rain Noon
 - Viewpoint: Jeep Wrangler(with hood), Bus(without hood)
 - Source train set size: 40128
-{% include gallery id="layouts_gallery_source" caption="Click to see some sample taken from the source scenario." %}
+{% include gallery id="layouts_gallery_worst" caption="Click to see some sample taken from the worst source scenario." %}
 
 ### Target/Test Scenario:
 - Environment: BDD100K
@@ -91,6 +116,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 {% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
 
 ### Results
+#### Best Case Scenario
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
@@ -159,3 +185,5 @@ two different IDDA distributions, one more similar and close to the real dataset
     <td class="tg-8ot9">40,09</td>
   </tr>
 </table>
+
+#### Worst Case Scenario
