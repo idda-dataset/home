@@ -9,8 +9,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/benchmark.jpg
 ---
-
-{% for post in site.benchmarks limit: 5 %}
+#IDDA vs IDDA
+{% for post in site.benchmarks.iddavsidda limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
 
