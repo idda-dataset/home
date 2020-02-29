@@ -72,12 +72,15 @@ higher perspective, with a different shape of the hood. The distance between the
 - Environment: Town 01
 - Weather and illumination condition: Clear Sunset
 - Viewpoint: Audi TT
+- Source train set size: 10044
 {% include gallery id="layouts_gallery_source" caption="Click to see some sample taken from the source scenario." %}
 
 ### Target/Test Scenario:
 - Environment: Town 01
 - Weather and illumination condition: Clear Sunset
 - Viewpoint: Jeep Wrangler Rubicon
+- Target train set size (only with DA): 10044
+- Test size: 1674
 {% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
 
 ### Results
