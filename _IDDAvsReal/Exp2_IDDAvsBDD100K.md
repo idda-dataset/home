@@ -112,8 +112,8 @@ two different IDDA distributions, one more similar and close to the real dataset
 ### Target/Test Scenario:
 - Dataset: BDD100k
 - Environment: 2 cities, New York and San Francisco
-- Weather and illumination condition: Various weathers, different time of the day
-- Viewpoints: different driver
+- Weather and illumination condition: various weathers, different time of the day
+- Viewpoints: different drivers
 - Target train set size (only with DA): 3333
 - Test size: 745
 {% include gallery id="layouts_gallery_target" caption="Click to see some sample taken from the target/test scenario." %}
