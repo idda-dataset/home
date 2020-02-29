@@ -162,7 +162,7 @@ two different IDDA distributions, one more similar and close to the real dataset
   <tr>
     <td class="tg-g1sy" rowspan="4">ResNet-101</td>
     <td class="tg-yk9p" rowspan="4">5,8681</td>
-    <td class="tg-g1sy" rowspan="4">14896</td>
+    <td class="tg-g1sy" rowspan="4">1,4896</td>
     <td class="tg-yk9p" rowspan="4">0,0230</td>
     <td class="tg-z8x8" rowspan="4">with <br>domain<br>adaptation</td>
     <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[2]</a></td>
