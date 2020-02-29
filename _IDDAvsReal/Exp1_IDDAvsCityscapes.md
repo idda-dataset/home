@@ -9,7 +9,6 @@ comments: false
 share: false
 related: false
 
-
 layouts_gallery_best:
   - url: /assets/images/iddavsbdd/source_best1.jpg
     image_path: /assets/images/iddavsbdd/source_best1.jpg
