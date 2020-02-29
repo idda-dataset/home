@@ -263,7 +263,9 @@ collections:
   benchmarks:
     output: true
     permalink: /:collection/:path/
-
+  iddavsidda:
+    output: true
+    permalink: /:collection/_benchmarks/:path/
 # Defaults
 defaults:
   # _posts
