@@ -13,31 +13,52 @@ layouts_gallery_source:
   - url: /assets/images/viewpointchange_1/source1.jpg
     image_path: /assets/images/viewpointchange_1/source1.jpg
     alt: "Source Example"
+    title: "Source"
   - url: /assets/images/viewpointchange_1/source2.jpg
     image_path: /assets/images/viewpointchange_1/source2.jpg
     alt: "Source Example"
+    title: "Source"
   - url: /assets/images/viewpointchange_1/source3.jpg
     image_path: /assets/images/viewpointchange_1/source3.jpg
     alt: "Source Example"
+    title: "Source"
   - url: /assets/images/viewpointchange_1/source4.jpg
     image_path: /assets/images/viewpointchange_1/source4.jpg
     alt: "Source Example"
+    title: "Source"
   - url: /assets/images/viewpointchange_1/source5.jpg
     image_path: /assets/images/viewpointchange_1/source5.jpg
     alt: "Source Example"
+    title: "Source"
   - url: /assets/images/viewpointchange_1/source6.jpg
     image_path: /assets/images/viewpointchange_1/source6.jpg
     alt: "Source Example"
+    title: "Source"
 layouts_gallery_target:
-  - url: /assets/images/viewpointchange_1/source1.jpg
-    image_path: /assets/images/viewpointchange_1/source1.jpg
-    alt: "RGB Image Example"
-  - url: /assets/images/viewpointchange_1/source1.jpg
-    image_path: /assets/images/viewpointchange_1/source1.jpg
-    alt: "Semantic Image Example"
-  - url: /assets/images/viewpointchange_1/source1.jpg
-    image_path: /assets/images/viewpointchange_1/source1.jpg
-    alt: "Depth Image Example"
+  - url: /assets/images/viewpointchange_1/target1.jpg
+    image_path: /assets/images/viewpointchange_1/target1.jpg
+    alt: "Target Example"
+    title: "Target"
+  - url: /assets/images/viewpointchange_1/target2.jpg
+    image_path: /assets/images/viewpointchange_1/target2.jpg
+    alt: "Target Example"
+    title: "Target"
+  - url: /assets/images/viewpointchange_1/target3.jpg
+    image_path: /assets/images/viewpointchange_1/target3.jpg
+    alt: "Target Example"
+    title: "Target"
+  - url: /assets/images/viewpointchange_1/target4.jpg
+    image_path: /assets/images/viewpointchange_1/target4.jpg
+    alt: "Target Example"
+    title: "Target"
+  - url: /assets/images/viewpointchange_1/target5.jpg
+    image_path: /assets/images/viewpointchange_1/target5.jpg
+    alt: "Target Example"
+    title: "Target"
+  - url: /assets/images/viewpointchange_1/target6.jpg
+    image_path: /assets/images/viewpointchange_1/target6.jpg
+    alt: "Target Example"
+    title: "Target"
 ---
 {% include feature_row id="intro" type="center" %}
 
