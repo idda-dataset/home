@@ -29,8 +29,8 @@ corporate identity and graphics. Architecture, interior design and urban design 
 In almost forty years of experience, the Industrial Design Division of Italdesign has achieved a solid know- how, while working 
 in several fields and co-operating with national and international organizations: over 1,000 projects were accomplished from 
 concept design to production.
-<br><br><br><i>For further information about Italdesign:</i>
+<br><br><br><i>For further information about Italdesign:</i><br>
 Communications Department<br>
-Via Grandi 21, 10024 Moncalieri<br>
+Via Achille Grandi 21, 10024 Moncalieri<br>
 E-mail: pr@italdesign.it<br>
 [www.italdesign.it](https://www.italdesign.it)
