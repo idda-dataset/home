@@ -1,5 +1,5 @@
 ---
-title: "About Italdesign"
+title: "About ItalDesign"
 layout: single
 toc: false
 classes: wide
