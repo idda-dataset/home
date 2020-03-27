@@ -42,3 +42,8 @@ feature_row1:
 {% include feature_row id="intro" type="center" %}
 Please contact us for any question, information or feedback.
 {% include feature_row %}
+
+### The company
+{% for post in site.AboutItaldesign limit: 5 %}
+  {% include archive-single.html %}
+{% endfor %}
