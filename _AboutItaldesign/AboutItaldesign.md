@@ -32,5 +32,5 @@ concept design to production.
 <br><br><br><i>For further information about Italdesign:</i><br>
 Communications Department<br>
 Via Achille Grandi 21, 10024 Moncalieri<br>
-E-mail: pr@italdesign.it<br>
+E-mail: [pr@italdesign.it](mailto:pr@italdesign.it)<br>
 [www.italdesign.it](https://www.italdesign.it)
