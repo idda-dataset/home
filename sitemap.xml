@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://idda-dataset.github.io/home/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/overview/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/benchmarks/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/download/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/news/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/contact/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsIDDA/Exp1_ChangeViewpoint/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsIDDA/Exp2_ChangeTown/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp1_IDDAvsCityscapes/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp2_IDDAvsBDD100K/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp3_IDDAvsMapillary/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/welcome/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/AboutItaldesign/AboutItaldesign/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/tags/</loc>
+  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
