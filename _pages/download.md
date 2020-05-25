@@ -90,5 +90,6 @@ function myFunction() {
 <br>
 
 *Required field<br>
-Dataset download will be available soon. You can now download a preview of IDDA [here](https://mega.nz/#F!xBFw3ABA!xEj885HAkwW2TZwzSMuRcw)
+Dataset download and licence information will be available soon. You can now download a preview 
+of IDDA [here](https://mega.nz/#F!xBFw3ABA!xEj885HAkwW2TZwzSMuRcw)
 {: .notice--warning}
