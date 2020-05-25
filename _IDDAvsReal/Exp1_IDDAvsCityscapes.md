@@ -152,7 +152,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Worst Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
+    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Best Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
     <td class="tg-hb2y" rowspan="5">8,2360</td>
     <td class="tg-cly1" rowspan="5">1,5465</td>
     <td class="tg-hb2y" rowspan="5">0,0498</td>
