@@ -19,6 +19,7 @@ header:
   {% include archive-single.html %}
 {% endfor %}
 
+
 ## The metric
 ### Performance evaluation
 To evaluate the performances of the treated methods we use the PASCAL VOC Intersection-over-Union (IoU), also known 
