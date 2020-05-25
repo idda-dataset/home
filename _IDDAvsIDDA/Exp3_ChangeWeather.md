@@ -10,53 +10,53 @@ share: false
 related: false
 
 layouts_gallery_source:
-  - url: /assets/images/weatherchange_2/source1.jpg
-    image_path: /assets/images/weatherchange_2/source1.jpg
+  - url: /assets/images/weatherchange_3/source1.jpg
+    image_path: /assets/images/weatherchange_3/source1.jpg
     alt: "Source Example"
     title: "Source"
-  - url: /assets/images/weatherchange_2/source2.jpg
-    image_path: /assets/images/weatherchange_2/source2.jpg
+  - url: /assets/images/weatherchange_3/source2.jpg
+    image_path: /assets/images/weatherchange_3/source2.jpg
     alt: "Source Example"
     title: "Source"
-  - url: /assets/images/weatherchange_2/source3.jpg
-    image_path: /assets/images/weatherchange_2/source3.jpg
+  - url: /assets/images/weatherchange_3/source3.jpg
+    image_path: /assets/images/weatherchange_3/source3.jpg
     alt: "Source Example"
     title: "Source"
-  - url: /assets/images/weatherchange_2/source4.jpg
-    image_path: /assets/images/weatherchange_2/source4.jpg
+  - url: /assets/images/weatherchange_3/source4.jpg
+    image_path: /assets/images/weatherchange_3/source4.jpg
     alt: "Source Example"
     title: "Source"
-  - url: /assets/images/weatherchange_2/source5.jpg
-    image_path: /assets/images/weatherchange_2/source5.jpg
+  - url: /assets/images/weatherchange_3/source5.jpg
+    image_path: /assets/images/weatherchange_3/source5.jpg
     alt: "Source Example"
     title: "Source"
-  - url: /assets/images/weatherchange_2/source6.jpg
-    image_path: /assets/images/weatherchange_2/source6.jpg
+  - url: /assets/images/weatherchange_3/source6.jpg
+    image_path: /assets/images/weatherchange_3/source6.jpg
     alt: "Source Example"
     title: "Source"
 layouts_gallery_target:
-  - url: /assets/images/weatherchange_2/target1.jpg
-    image_path: /assets/images/weatherchange_2/target1.jpg
+  - url: /assets/images/weatherchange_3/target1.jpg
+    image_path: /assets/images/weatherchange_3/target1.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/weatherchange_2/target2.jpg
-    image_path: /assets/images/weatherchange_2/target2.jpg
+  - url: /assets/images/weatherchange_3/target2.jpg
+    image_path: /assets/images/weatherchange_3/target2.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/weatherchange_2/target3.jpg
-    image_path: /assets/images/weatherchange_2/target3.jpg
+  - url: /assets/images/weatherchange_3/target3.jpg
+    image_path: /assets/images/weatherchange_3/target3.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/weatherchange_2/target4.jpg
-    image_path: /assets/images/weatherchange_2/target4.jpg
+  - url: /assets/images/weatherchange_3/target4.jpg
+    image_path: /assets/images/weatherchange_3/target4.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/weatherchange_2/target5.jpg
-    image_path: /assets/images/weatherchange_2/target5.jpg
+  - url: /assets/images/weatherchange_3/target5.jpg
+    image_path: /assets/images/weatherchange_3/target5.jpg
     alt: "Target Example"
     title: "Target"
-  - url: /assets/images/weatherchange_2/target6.jpg
-    image_path: /assets/images/weatherchange_2/target6.jpg
+  - url: /assets/images/weatherchange_3/target6.jpg
+    image_path: /assets/images/weatherchange_3/target6.jpg
     alt: "Target Example"
     title: "Target"
 
@@ -64,7 +64,7 @@ last_modified_at: 2020-05-25T14:47:43+01:00
 ---
 {% include feature_row id="intro" type="center" %}
 
-## EXPERIMENT 2<br>From a clear sunset to an hard rain scenario
+## EXPERIMENT 3<br>From a clear sunset to an hard rain scenario
 It tests the generalization and adaptation performances of the semantic segmentation networks when changing the weather condition, 
 from a sunset to a hard rain scene. The gap among the source and target domain is high but lower than the shift across two different towns. 
 The difficulty of the task is medium.
