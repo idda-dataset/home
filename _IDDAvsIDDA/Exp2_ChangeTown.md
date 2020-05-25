@@ -122,48 +122,47 @@ The task is even more challenging due to the rain condition.
     <td class="tg-lboi" rowspan="9">1,0586</td>
     <td class="tg-z9fv" rowspan="9">0,0426</td>
     <td class="tg-lboi" rowspan="5">without<br>domain<br>adaptation </td>
-    <td class="tg-7d57">DeepLab V2 [1]</td>
-    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57"><td class="tg-7d57"><a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a><td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">21,65</td>
   </tr>
   <tr>
-    <td class="tg-7d57">DeepLab V3+ [2]</td>
+    <td class="tg-7d57">DeepLab V3+ <a href="https://arxiv.org/pdf/1802.02611.pdf" target="_blank" rel="noopener noreferrer">[2]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">14,27</td>
   </tr>
   <tr>
-    <td class="tg-7d57">PSPNet [3]</td>
+    <td class="tg-7d57">PSPNet <a href="https://arxiv.org/abs/1612.01105" target="_blank" rel="noopener noreferrer">[3]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">14,64</td>
   </tr>
   <tr>
-    <td class="tg-7d57">PSANet [4]</td>
+    <td class="tg-7d57">PSANet <a href="https://hszhao.github.io/papers/eccv18_psanet.pdf" target="_blank" rel="noopener noreferrer">[4]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">15,52</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">DeepLab V2 [1]<br>(source=target)</td>
+    <td class="tg-dg7a">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a><br>(source=target)</td>
     <td class="tg-0lax">(soon)</td>
     <td class="tg-dg7a">78,02</td>
   </tr>
   <tr>
     <td class="tg-lboi" rowspan="4">with<br>domain<br>adaptation</td>
-    <td class="tg-7d57">DADA [5]</td>
+    <td class="tg-7d57">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[5]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">36,48</td>
   </tr>
   <tr>
-    <td class="tg-7d57">ADVENT [6]</td>
+    <td class="tg-7d57">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[6]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">39,30</td>
   </tr>
   <tr>
-    <td class="tg-7d57">CLAN [7]</td>
+    <td class="tg-7d57">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[7]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">41,18</td>
   </tr>
   <tr>
-    <td class="tg-7d57">DISE [8]</td>
+    <td class="tg-7d57">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[8]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">46,71</td>
   </tr>
