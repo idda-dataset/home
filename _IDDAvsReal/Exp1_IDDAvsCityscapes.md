@@ -121,140 +121,132 @@ two different IDDA distributions, one more similar and close to the real dataset
 ### Results
 #### Best Case Scenario
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-g1sy{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-8ot9{font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-zeup{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-8jvv{font-size:15px;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-yk9p{font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-z8x8{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-4dm3{font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-7xkh{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-abip{background-color:#f9f9f9;border-color:inherit;text-align:center;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+.tg td{background-color:#fff;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#f38630;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-dg7a{background-color:#FCFBE3;text-align:left;vertical-align:top}
+.tg .tg-hb2y{background-color:#FCFBE3;text-align:left;vertical-align:middle}
 </style>
 <table class="tg">
+<thead>
   <tr>
-    <th class="tg-yk9p" rowspan="2">Experiment </th>
-    <th class="tg-8jvv" colspan="4">Distance</th>
-    <th class="tg-8jvv" colspan="4">Performance Evaluation</th>
+    <th class="tg-0lax" rowspan="2">Experiment </th>
+    <th class="tg-baqh" colspan="3">Distance Measurements</th>
+    <th class="tg-baqh" colspan="4">Performance Evaluation</th>
   </tr>
   <tr>
-    <td class="tg-g1sy">Network</td>
-    <td class="tg-yk9p">Euclidean<br>distance</td>
-    <td class="tg-g1sy">Cosine<br>distance</td>
-    <td class="tg-yk9p">Bhattacharaya<br>distance</td>
-    <td class="tg-g1sy" colspan="2">Network</td>
-    <td class="tg-g1sy">Code Available</td>
-    <td class="tg-yk9p">mIoU (%)</td>
+    <td class="tg-dg7a">Euclidean<br>distance</td>
+    <td class="tg-0lax">Cosine<br>distance</td>
+    <td class="tg-dg7a">Bhattacharaya<br>distance</td>
+    <td class="tg-0lax" colspan="2">Network</td>
+    <td class="tg-0lax">Code Available</td>
+    <td class="tg-dg7a">mIoU (%)</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Best Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
+    <td class="tg-hb2y" rowspan="5">7,4419</td>
+    <td class="tg-cly1" rowspan="5">1,3582</td>
+    <td class="tg-hb2y" rowspan="5">0,0552</td>
+    <td class="tg-0lax">without <br>domain <br>adaptation</td>
+    <td class="tg-dg7a">DeepLab V2 [1]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">32,66</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="5">IDDA Best Case Scenario<br>vs<br>Cityscapes</td>
-    <td class="tg-g1sy">AlexNet</td>
-    <td class="tg-yk9p">24,4120</td>
-    <td class="tg-g1sy">1,6996</td>
-    <td class="tg-yk9p">0,0469</td>
-    <td class="tg-z8x8">without <br>domain <br>adaptation</td>
-    <td class="tg-4dm3">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf">[1]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">32,66</td>
+    <td class="tg-0lax" rowspan="4">with <br>domain<br>adaptation</td>
+    <td class="tg-dg7a">DADA [2]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">33,13</td>
   </tr>
   <tr>
-    <td class="tg-g1sy" rowspan="4">ResNet-101</td>
-    <td class="tg-yk9p" rowspan="4">8,1359</td>
-    <td class="tg-g1sy" rowspan="4">1,6812</td>
-    <td class="tg-yk9p" rowspan="4">0,0481</td>
-    <td class="tg-z8x8" rowspan="4">with <br>domain<br>adaptation</td>
-    <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[2]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">33,13</td>
+    <td class="tg-dg7a">ADVENT [3]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">35,32</td>
   </tr>
   <tr>
-    <td class="tg-0pky">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf">[3]</a></td>
-    <td class="tg-abip">(soon)</td>
-    <td class="tg-c3ow">35,32</td>
+    <td class="tg-dg7a">CLAN [4]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">39,26</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf">[4]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">39,26</td>
+    <td class="tg-dg7a">DISE [5]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">42,07</td>
   </tr>
-  <tr>
-    <td class="tg-8jvv">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[5]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">42,07</td>
-  </tr>
+</tbody>
 </table>
 
 #### Worst Case Scenario
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-g1sy{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-8ot9{font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-zeup{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-8jvv{font-size:15px;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-yk9p{font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-z8x8{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-4dm3{font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-7xkh{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-abip{background-color:#f9f9f9;border-color:inherit;text-align:center;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+.tg td{background-color:#fff;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#f38630;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-dg7a{background-color:#FCFBE3;text-align:left;vertical-align:top}
+.tg .tg-hb2y{background-color:#FCFBE3;text-align:left;vertical-align:middle}
 </style>
 <table class="tg">
+<thead>
   <tr>
-    <th class="tg-yk9p" rowspan="2">Experiment </th>
-    <th class="tg-8jvv" colspan="4">Distance</th>
-    <th class="tg-8jvv" colspan="4">Performance Evaluation</th>
+    <th class="tg-0lax" rowspan="2">Experiment </th>
+    <th class="tg-baqh" colspan="3">Distance Measurements</th>
+    <th class="tg-baqh" colspan="4">Performance Evaluation</th>
   </tr>
   <tr>
-    <td class="tg-g1sy">Network</td>
-    <td class="tg-yk9p">Euclidean<br>distance</td>
-    <td class="tg-g1sy">Cosine<br>distance</td>
-    <td class="tg-yk9p">Bhattacharaya<br>distance</td>
-    <td class="tg-g1sy" colspan="2">Network</td>
-    <td class="tg-g1sy">Code Available</td>
-    <td class="tg-yk9p">mIoU (%)</td>
+    <td class="tg-dg7a">Euclidean<br>distance</td>
+    <td class="tg-0lax">Cosine<br>distance</td>
+    <td class="tg-dg7a">Bhattacharaya<br>distance</td>
+    <td class="tg-0lax" colspan="2">Network</td>
+    <td class="tg-0lax">Code Available</td>
+    <td class="tg-dg7a">mIoU (%)</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Best Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
+    <td class="tg-hb2y" rowspan="5">8,2360</td>
+    <td class="tg-cly1" rowspan="5">1,5465</td>
+    <td class="tg-hb2y" rowspan="5">0,0498</td>
+    <td class="tg-0lax">without <br>domain <br>adaptation</td>
+    <td class="tg-dg7a">DeepLab V2 [1]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">16,81</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="5">IDDA Worst Case Scenario<br>vs<br>Cityscapes</td>
-    <td class="tg-g1sy">AlexNet</td>
-    <td class="tg-yk9p">23,3693</td>
-    <td class="tg-g1sy">1,5422</td>
-    <td class="tg-yk9p">0,0460</td>
-    <td class="tg-z8x8">without <br>domain <br>adaptation</td>
-    <td class="tg-4dm3">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf">[1]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">16,81</td>
+    <td class="tg-0lax" rowspan="4">with <br>domain<br>adaptation</td>
+    <td class="tg-dg7a">DADA [2]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">23,68</td>
   </tr>
   <tr>
-    <td class="tg-g1sy" rowspan="4">ResNet-101</td>
-    <td class="tg-yk9p" rowspan="4">10,1848</td>
-    <td class="tg-g1sy" rowspan="4">1,6821</td>
-    <td class="tg-yk9p" rowspan="4">0,1042</td>
-    <td class="tg-z8x8" rowspan="4">with <br>domain<br>adaptation</td>
-    <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[2]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">23,68</td>
+    <td class="tg-dg7a">ADVENT [3]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">23,83</td>
   </tr>
   <tr>
-    <td class="tg-0pky">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf">[3]</a></td>
-    <td class="tg-abip">(soon)</td>
-    <td class="tg-c3ow">23,83</td>
+    <td class="tg-dg7a">CLAN [4]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">25,75</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf">[4]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">25,75</td>
+    <td class="tg-dg7a">DISE [5]</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">31,25</td>
   </tr>
-  <tr>
-    <td class="tg-8jvv">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[5]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">31,25</td>
-  </tr>
+</tbody>
 </table>
