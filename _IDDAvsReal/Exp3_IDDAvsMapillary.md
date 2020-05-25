@@ -112,7 +112,7 @@ two different IDDA distributions, one more similar and close to the real dataset
 ### Target/Test Scenario:
 - Dataset: Mapillary Vistas
 - Environment: images taken from various cities around the world
-- Weather and illumination condition: sun, rain, snow, fog, haze, dawn, daylight, dusk, night
+- Weather and illumination condition: various
 - Viewpoints: different capturing viewpoints
 - Target train set size (only with domain adaptation): 18000
 - Test size: 2000
