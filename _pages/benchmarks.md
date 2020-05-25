@@ -40,7 +40,7 @@ To measure the distance and the similarity between two or more domains we procee
 - we compute, in the other case, the feature-wise Bhattacharaya distance;
 - additionally we use t-SNE [[4]](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf) to project the features extracted from the ResNet-101 in a more comprehensible 2D dimensional space.<br><br>
 To reproduce our results we provide **here the code** for 
-the [[ResNet-101]](https://github.com/taveraantonio/tSNE_ResNet) with the t-SNE computation included.   
+the [[ResNet-101]](https://github.com/taveraantonio/tSNE_ResNet) with the t-SNE computation included.
 {: style="text-align: justify;"}
 
 
