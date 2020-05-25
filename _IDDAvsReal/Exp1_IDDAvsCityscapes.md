@@ -220,7 +220,7 @@ two different IDDA distributions, one more similar and close to the real dataset
   <tr>
     <td class="tg-lboi" rowspan="5"><span style="font-weight:bold">Source:</span><br>IDDA Worst Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
     <td class="tg-z9fv" rowspan="5">8,2360</td>
-    <td class="tg-lboi" rowspan="5">15465</td>
+    <td class="tg-lboi" rowspan="5">1,5465</td>
     <td class="tg-z9fv" rowspan="5">0,0498</td>
     <td class="tg-0pky">without <br>domain <br>adaptation</td>
     <td class="tg-7d57">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a></td>
