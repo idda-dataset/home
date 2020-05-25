@@ -85,7 +85,7 @@ layouts_gallery_target:
     alt: "Target Example"
     title: "Target"
 
-last_modified_at: 2020-02-29T14:47:43+01:00
+last_modified_at: 2020-05-25T14:47:43+01:00
 ---
 {% include feature_row id="intro" type="center" %}
 
@@ -152,35 +152,35 @@ two different IDDA distributions, one more similar and close to the real dataset
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Best Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
-    <td class="tg-hb2y" rowspan="5">7,4419</td>
-    <td class="tg-cly1" rowspan="5">1,3582</td>
-    <td class="tg-hb2y" rowspan="5">0,0552</td>
+    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Worst Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
+    <td class="tg-hb2y" rowspan="5">8,2360</td>
+    <td class="tg-cly1" rowspan="5">1,5465</td>
+    <td class="tg-hb2y" rowspan="5">0,0498</td>
     <td class="tg-0lax">without <br>domain <br>adaptation</td>
-    <td class="tg-dg7a">DeepLab V2 [1]</td>
+    <td class="tg-dg7a">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a></td>
     <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">32,66</td>
+    <td class="tg-dg7a">16,81</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="4">with <br>domain<br>adaptation</td>
-    <td class="tg-dg7a">DADA [2]</td>
+    <td class="tg-dg7a">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[2]</a></td>
     <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">33,13</td>
+    <td class="tg-dg7a">23,68</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">ADVENT [3]</td>
+    <td class="tg-dg7a">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[3]</a></td>
     <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">35,32</td>
+    <td class="tg-dg7a">23,83</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">CLAN [4]</td>
+    <td class="tg-dg7a">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[4]</a></td>
     <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">39,26</td>
+    <td class="tg-dg7a">25,75</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">DISE [5]</td>
+    <td class="tg-dg7a">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[5]</a></td>
     <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">42,07</td>
+    <td class="tg-dg7a">31,25</td>
   </tr>
 </tbody>
 </table>
@@ -194,59 +194,59 @@ two different IDDA distributions, one more similar and close to the real dataset
 .tg th{background-color:#f38630;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
   border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
   padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-dg7a{background-color:#FCFBE3;text-align:left;vertical-align:top}
-.tg .tg-hb2y{background-color:#FCFBE3;text-align:left;vertical-align:middle}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-7d57{background-color:#FCFBE3;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-z9fv{background-color:#FCFBE3;border-color:inherit;text-align:left;vertical-align:middle}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax" rowspan="2">Experiment </th>
-    <th class="tg-baqh" colspan="3">Distance Measurements</th>
-    <th class="tg-baqh" colspan="4">Performance Evaluation</th>
+    <th class="tg-0pky" rowspan="2">Experiment </th>
+    <th class="tg-c3ow" colspan="3">Distance Measurements</th>
+    <th class="tg-c3ow" colspan="4">Performance Evaluation</th>
   </tr>
   <tr>
-    <td class="tg-dg7a">Euclidean<br>distance</td>
-    <td class="tg-0lax">Cosine<br>distance</td>
-    <td class="tg-dg7a">Bhattacharaya<br>distance</td>
-    <td class="tg-0lax" colspan="2">Network</td>
-    <td class="tg-0lax">Code Available</td>
-    <td class="tg-dg7a">mIoU (%)</td>
+    <td class="tg-7d57">Euclidean<br>distance</td>
+    <td class="tg-0pky">Cosine<br>distance</td>
+    <td class="tg-7d57">Bhattacharaya<br>distance</td>
+    <td class="tg-0pky" colspan="2">Network</td>
+    <td class="tg-0pky">Code Available</td>
+    <td class="tg-7d57">mIoU (%)</td>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="5"><br><span style="font-weight:bold">Source:</span><br>IDDA Best Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
-    <td class="tg-hb2y" rowspan="5">8,2360</td>
-    <td class="tg-cly1" rowspan="5">1,5465</td>
-    <td class="tg-hb2y" rowspan="5">0,0498</td>
-    <td class="tg-0lax">without <br>domain <br>adaptation</td>
-    <td class="tg-dg7a">DeepLab V2 [1]</td>
-    <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">16,81</td>
+    <td class="tg-lboi" rowspan="5"><span style="font-weight:bold">Source:</span><br>IDDA Worst Case <br><br><span style="font-weight:bold">Target:</span><br>Cityscapes</td>
+    <td class="tg-z9fv" rowspan="5">8,2360</td>
+    <td class="tg-lboi" rowspan="5">15465</td>
+    <td class="tg-z9fv" rowspan="5">0,0498</td>
+    <td class="tg-0pky">without <br>domain <br>adaptation</td>
+    <td class="tg-7d57">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a></td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">16,81</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="4">with <br>domain<br>adaptation</td>
-    <td class="tg-dg7a">DADA [2]</td>
-    <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">23,68</td>
+    <td class="tg-0pky" rowspan="4">with <br>domain<br>adaptation</td>
+    <td class="tg-7d57">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[2]</a></td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">26,68</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">ADVENT [3]</td>
-    <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">23,83</td>
+    <td class="tg-7d57">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[3]</a></td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">23,83</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">CLAN [4]</td>
-    <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">25,75</td>
+    <td class="tg-7d57">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[4]</a></td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">25,75</td>
   </tr>
   <tr>
-    <td class="tg-dg7a">DISE [5]</td>
-    <td class="tg-0lax">(soon)</td>
-    <td class="tg-dg7a">31,25</td>
+    <td class="tg-7d57">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf" target="_blank" rel="noopener noreferrer">[5]</a></td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">31,25</td>
   </tr>
 </tbody>
 </table>
