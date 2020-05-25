@@ -86,85 +86,86 @@ The task is even more challenging due to the rain condition.
 
 ### Results
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-g1sy{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-8ot9{font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-zeup{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-8jvv{font-size:15px;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-yk9p{font-size:15px;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-z8x8{background-color:#f9f9f9;font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-4dm3{font-size:15px;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-7xkh{background-color:#f9f9f9;font-style:italic;font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
+.tg  {border:none;border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:0px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-7d57{background-color:#FCFBE3;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-z9fv{background-color:#FCFBE3;border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-dg7a{background-color:#FCFBE3;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-dzk6{background-color:#f9f9f9;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
+<thead>
   <tr>
-    <th class="tg-yk9p" rowspan="2">Experiment </th>
-    <th class="tg-8jvv" colspan="4">Distance</th>
-    <th class="tg-8jvv" colspan="4">Performance Evaluation</th>
+    <th class="tg-c3ow" rowspan="2">Experiment </th>
+    <th class="tg-c3ow" colspan="3">Distance Measurement</th>
+    <th class="tg-c3ow" colspan="4">Performance Evaluation</th>
   </tr>
   <tr>
-    <td class="tg-g1sy">Network</td>
-    <td class="tg-yk9p">Euclidean<br>distance</td>
-    <td class="tg-g1sy">Cosine<br>distance</td>
-    <td class="tg-yk9p">Bhattacharaya<br>distance</td>
-    <td class="tg-g1sy" colspan="2">Network</td>
-    <td class="tg-g1sy">Code Available</td>
-    <td class="tg-yk9p">mIoU (%)</td>
+    <td class="tg-7d57">Euclidean<br>distance</td>
+    <td class="tg-0pky">Cosine<br>distance</td>
+    <td class="tg-7d57">Bhattacharaya<br>distance</td>
+    <td class="tg-c3ow" colspan="2">Network</td>
+    <td class="tg-0pky">Code Available</td>
+    <td class="tg-7d57">mIoU (%)</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-lboi" rowspan="9"><span style="font-weight:bold">Source:</span><br>Town 01, Hard Rain Noon, Audi<br><br><span style="font-weight:bold">Target:</span><br>Town 07, Hard Rain Noon, Audi</td>
+    <td class="tg-z9fv" rowspan="9">6,4551</td>
+    <td class="tg-lboi" rowspan="9">1,0586</td>
+    <td class="tg-z9fv" rowspan="9">0,0426</td>
+    <td class="tg-lboi" rowspan="5">without<br>domain<br>adaptation </td>
+    <td class="tg-7d57">DeepLab V2 [1]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">21,65</td>
   </tr>
   <tr>
-    <td class="tg-yk9p" rowspan="8">Town 01, Hard Rain Noon, AudiTT<br>vs<br>Town 07, Hard Rain Noon, AudiTT</td>
-    <td class="tg-g1sy" rowspan="4">AlexNet</td>
-    <td class="tg-yk9p" rowspan="4">13,8627</td>
-    <td class="tg-g1sy" rowspan="4">0,7135</td>
-    <td class="tg-yk9p" rowspan="4">0,0295</td>
-    <td class="tg-z8x8" rowspan="4">without<br>domain<br>adaptation </td>
-    <td class="tg-4dm3">DeepLab V2 <a href="https://arxiv.org/pdf/1606.00915.pdf">[1]</a></td>
-    <td class="tg-zeup"><span style="font-style:italic">(soon)</span></td>
-    <td class="tg-yk9p">21,65</td>
+    <td class="tg-7d57">DeepLab V3+ [2]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">14,27</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">DeepLab V3+ <a href="https://eccv2018.org/openaccess/content_ECCV_2018/papers/Liang-Chieh_Chen_Encoder-Decoder_with_Atrous_ECCV_2018_paper.pdf">[2]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">14,27</td>
+    <td class="tg-7d57">PSPNet [3]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">14,64</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">PSPNet <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.pdf">[3]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">14,64</td>
+    <td class="tg-7d57">PSANet [4]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">15,52</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">PSANet <a href="https://link.springer.com/chapter/10.1007/978-3-030-01240-3_17">[4]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">15,52</td>
+    <td class="tg-dg7a">DeepLab V2 [1]<br>(source=target)</td>
+    <td class="tg-0lax">(soon)</td>
+    <td class="tg-dg7a">78,02</td>
   </tr>
   <tr>
-    <td class="tg-g1sy" rowspan="4">ResNet-101</td>
-    <td class="tg-yk9p" rowspan="4">6,6018</td>
-    <td class="tg-g1sy" rowspan="4">1,0245</td>
-    <td class="tg-yk9p" rowspan="4">0,0396</td>
-    <td class="tg-z8x8" rowspan="4">with<br>domain<br>adaptation</td>
-    <td class="tg-8jvv">DADA <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Vu_DADA_Depth-Aware_Domain_Adaptation_in_Semantic_Segmentation_ICCV_2019_paper.pdf">[5]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">36,48</td>
+    <td class="tg-lboi" rowspan="4">with<br>domain<br>adaptation</td>
+    <td class="tg-7d57">DADA [5]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">36,48</td>
   </tr>
   <tr>
-    <td class="tg-0lax">ADVENT <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf">[6]</a></td>
-    <td class="tg-dzk6"><span style="font-style:italic">(soon)</span></td>
-    <td class="tg-baqh">39,30</td>
+    <td class="tg-7d57">ADVENT [6]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">39,30</td>
   </tr>
   <tr>
-    <td class="tg-4dm3">CLAN <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf">[7]</a></td>
-    <td class="tg-zeup">(soon)</td>
-    <td class="tg-yk9p">41,18</td>
+    <td class="tg-7d57">CLAN [7]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">41,18</td>
   </tr>
   <tr>
-    <td class="tg-8jvv">DISE <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_All_About_Structure_Adapting_Structural_Information_Across_Domains_for_Boosting_CVPR_2019_paper.pdf">[8]</a></td>
-    <td class="tg-7xkh">(soon)</td>
-    <td class="tg-8ot9">46,71</td>
+    <td class="tg-7d57">DISE [8]</td>
+    <td class="tg-0pky">(soon)</td>
+    <td class="tg-7d57">46,71</td>
   </tr>
+</tbody>
 </table>

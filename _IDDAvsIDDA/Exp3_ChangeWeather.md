@@ -67,7 +67,7 @@ last_modified_at: 2020-05-25T14:47:43+01:00
 ## EXPERIMENT 2<br>From a clear sunset to an hard rain scenario
 It tests the generalization and adaptation performances of the semantic segmentation networks when changing the weather condition, 
 from a sunset to a hard rain scene. The gap among the source and target domain is high but lower than the shift across two different towns. 
-
+The difficulty of the task is medium.
 
 ### Source Scenario: 
 - Environment: Town 01
