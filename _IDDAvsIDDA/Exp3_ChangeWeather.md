@@ -122,7 +122,7 @@ The difficulty of the task is medium.
     <td class="tg-lboi" rowspan="9">1,2633</td>
     <td class="tg-z9fv" rowspan="9">0,0337</td>
     <td class="tg-lboi" rowspan="5">without<br>domain<br>adaptation </td>
-    <td class="tg-7d57"><a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a></td>
+    <td class="tg-7d57">DeepLab V2<a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank" rel="noopener noreferrer">[1]</a></td>
     <td class="tg-0pky">(soon)</td>
     <td class="tg-7d57">40,24</td>
   </tr>
