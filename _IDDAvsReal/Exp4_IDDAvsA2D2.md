@@ -1,5 +1,5 @@
 ---
-title: "IDDA vs A2D2"
+title: "IDDA vs A2D2<sup style="color:red">NEW</sup>"
 layout: single
 toc: false
 classes: wide

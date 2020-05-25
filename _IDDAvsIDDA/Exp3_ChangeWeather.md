@@ -1,5 +1,5 @@
 ---
-title: "Weather Change<sup>NEW</sup>"
+title: "Weather Change<sup style="color:red">NEW</sup>"
 layout: single
 toc: false
 classes: wide
