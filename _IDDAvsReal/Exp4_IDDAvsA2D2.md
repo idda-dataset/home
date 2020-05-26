@@ -254,5 +254,5 @@ two different IDDA distributions, one more similar and close to the real dataset
 </table>
 
 *The number of classes considered during evaluation is 13 (w.r.t. to the other experiments where 16 classes in common
-between IDDA and the other real-world dataset are chosen.
+between IDDA and the other real-world dataset are chosen).
 {: .notice--warning}
