@@ -16,7 +16,7 @@ Automation Letters (RA-L) and in the Proceedings of the 2020 IEEE/RSJ Internatio
 Robots and Systems [(IROS 2020)](https://www.iros2020.org).
 <br>
 Follow this [link to download and read](https://ieeexplore.ieee.org/document/9140347) the paper and don't forget to cite 
-us ([here the bibtex](/paper)) if you are going to use our dataset in your work. 
+us ([here the bibtex](/bibtex)) if you are going to use our dataset in your work. 
 <br>
 Final version of the paper soon available also on [arXiv](https://arxiv.org/abs/2004.08298). 
 {: style="text-align: justify;"}
