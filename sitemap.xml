@@ -9,73 +9,98 @@
 
 <url>
   <loc>https://idda-dataset.github.io/home/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/overview/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/benchmarks/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/download/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/news/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/contact/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/publication/</loc>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/IDDAvsIDDA/Exp1_ChangeViewpoint/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/IDDAvsIDDA/Exp2_ChangeTown/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsIDDA/Exp3_ChangeWeather/</loc>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp1_IDDAvsCityscapes/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp2_IDDAvsBDD100K/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp3_IDDAvsMapillary/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/IDDAvsReal/Exp4_IDDAvsA2D2/</loc>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/weatherAndA2D2/</loc>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/welcome/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/AboutItaldesign/AboutItaldesign/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idda-dataset.github.io/home/bibtex/</loc>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://idda-dataset.github.io/home/tags/</loc>
-  <lastmod>2020-04-16T14:41:39+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-07-15T14:36:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
