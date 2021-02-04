@@ -11,8 +11,8 @@ feature_row:
     alt: "Antonio Tavera"
     title: "Antonio Tavera"
     excerpt: "PhD Student in Deep Learning and Computer Vision at **Politecnico di Torino** and **Italdesign**"
-    url: "mailto:antonio.tavera@polito.it"
-    btn_label: "Contact me"
+    url: "https://taveraantonio.github.io"
+    btn_label: "Visit my page and contact me"
     btn_class: "btn--info"
   - image_path: /assets/images/avatar2.png
     alt: "Emanuele Alberti"
