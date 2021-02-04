@@ -44,6 +44,9 @@ Please contact us for any question, information or feedback.
 {% include feature_row %}
 <br>
 <br>
+# The Laboratory
+{% include feature_row id="intro" type="center" %}
+{[VANDAL Lab](http://vandal.polito.it)
 # The company
 {% include feature_row id="intro" type="center" %}
 {% for post in site.AboutItaldesign limit: 5 %}
