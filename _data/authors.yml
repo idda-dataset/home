@@ -3,6 +3,9 @@ Antonio Tavera:
   bio         : "PhD Student in Deep Learning and Computer Vision at Politecnico di Torino and Italdesign"
   avatar      : "/assets/images/bio-photo-tavera.jpg"
   links:
+    - label: "Personal Page"
+      icon: "fas fa-fw fa-link"
+      url: "https://taveraantonio.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:antonio.tavera@polito.it"
