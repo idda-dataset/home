@@ -11,17 +11,17 @@ header:
 ---
 
 <script>
-function myFunction() {
-  var x = document.getElementById("mySelect").value;
-  if (x == "yes"){
-    document.getElementById("ifYes").style.display = "none";
-  }else if (x == ""){
-    document.getElementById("ifYes").style.display = "none";
-  }else{
-    document.getElementById("ifYes").style.display = "block";
-  }
-}
+
 </script>
+
+LABEL.indented-checkbox-text
+{
+  margin-left: 2em;
+  display: block;
+  position: relative;
+  margin-top: -1.4em;  /* make this margin match whatever your line-height is */
+  line-height: 1.4em;  /* can be set here, or elsewehere */
+}
 
 <div style="word-wrap: break-word; width:auto; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
 
@@ -40,13 +40,13 @@ function myFunction() {
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <label for="choice">Choose the subset/s you want to download:</label><br>
-    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best"> Splitting Best </label><br>
-    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst"> Splitting Worst </label><br>
-    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa"> T01 CS A </label><br>
-    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj"> T01 CS J </label><br>
-    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna"> T01 HRN A </label><br>
-    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj"> T01 HRN J </label><br>
-    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna"> T07 HRN A </label><br>
+    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best" class="indented-checkbox-text"> Splitting Best </label><br>
+    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst" class="indented-checkbox-text"> Splitting Worst </label><br>
+    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" class="indented-checkbox-text"> T01 CS A </label><br>
+    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" class="indented-checkbox-text"> T01 CS J </label><br>
+    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" class="indented-checkbox-text"> T01 HRN A </label><br>
+    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" class="indented-checkbox-text"> T01 HRN J </label><br>
+    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" class="indented-checkbox-text"> T07 HRN A </label><br>
     <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
 </form>
