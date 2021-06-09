@@ -41,14 +41,14 @@ header:
     <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 HRN A </label><br>
     <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 HRN J </label><br>
     <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T07 HRN A </label><br>
-    <br>
-    <br>
+    <p><br><br><br></p>
     <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
 </form>
 </div>
 <br>
 <br>
+
 *Required field<br>
 Dataset download will be available Mid June. You will receive download link by email. More splittings will be added soon. 
 {: .notice--success}
