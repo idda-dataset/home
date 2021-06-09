@@ -11,9 +11,16 @@ header:
 ---
 
 <script>
-$(document).ready(function() {
-    $('.js-example-basic-single').select2();
-});
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  if (x == "yes"){
+    document.getElementById("ifYes").style.display = "none";
+  }else if (x == ""){
+    document.getElementById("ifYes").style.display = "none";
+  }else{
+    document.getElementById("ifYes").style.display = "block";
+  }
+}
 </script>
 
 <div style="word-wrap: break-word; width:auto; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
@@ -33,15 +40,13 @@ $(document).ready(function() {
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <label for="choice">Choose the subset/s you want to download:</label><br>
-    <select class="js-example-basic-multiple" name="splitttings" multiple="multiple">
-    <option name="best" value="Splitting Best">Splitting Best</option>
-    <option name="worst" value="Splitting Worst">Splitting Worst</option>
-    <option name="t01csa" value="T01 CS A">T01 CS A</option>
-    <option name="t01csj" value="T01 CS J">T01 CS J</option>
-    <option name="t01hrna" value="T01 HRN A">T01 HRN A</option>
-    <option name="t01hrnj" value="T01 HRN J">T01 HRN J</option>
-    <option name="t07hrna" value="T07 HRN A">T07 HRN A</option>
-    </select>
+    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best"> Splitting Best </label><br>
+    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst"> Splitting Worst </label><br>
+    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa"> T01 CS A </label><br>
+    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj"> T01 CS J </label><br>
+    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna"> T01 HRN A </label><br>
+    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj"> T01 HRN J </label><br>
+    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna"> T07 HRN A </label><br>
     <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
 </form>
@@ -51,5 +56,5 @@ $(document).ready(function() {
 <br>
 
 *Required field<br>
-Dataset download will be available next week. You will receive download link by email. More splittings will be added soon. 
+Dataset download will be available Mid June. You will receive download link by email. More splittings will be added soon. 
 {: .notice--warning}
