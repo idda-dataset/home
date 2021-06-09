@@ -40,13 +40,13 @@ LABEL.indented-checkbox-text
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <label for="choice">Choose the subset/s you want to download:</label><br>
-    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best" class="indented-checkbox-text"> Splitting Best </label><br>
-    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst" class="indented-checkbox-text"> Splitting Worst </label><br>
-    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" class="indented-checkbox-text"> T01 CS A </label><br>
-    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" class="indented-checkbox-text"> T01 CS J </label><br>
-    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" class="indented-checkbox-text"> T01 HRN A </label><br>
-    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" class="indented-checkbox-text"> T01 HRN J </label><br>
-    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" class="indented-checkbox-text"> T07 HRN A </label><br>
+    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best" class="indented-checkbox-text"> Splitting Best </label>
+    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst" class="indented-checkbox-text"> Splitting Worst </label>
+    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" class="indented-checkbox-text"> T01 CS A </label>
+    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" class="indented-checkbox-text"> T01 CS J </label>
+    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" class="indented-checkbox-text"> T01 HRN A </label>
+    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" class="indented-checkbox-text"> T01 HRN J </label>
+    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" class="indented-checkbox-text"> T07 HRN A </label>
     <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
 </form>
