@@ -25,7 +25,7 @@ function myFunction() {
 
 <div style="word-wrap: break-word; width:auto; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
 
-<form accept-charset="UTF-8" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
+<form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
   <fieldset>
     <legend><b>Compile this form to request one or more splittings of IDDA</b></legend>
     <p><br><br><br></p>
@@ -47,7 +47,7 @@ function myFunction() {
     <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"> <label for="t01hrna"> T01 HRN A </label><br>
     <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"> <label for="t01hrnj"> T01 HRN J </label><br>
     <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"> <label for="t07hrna"> T07 HRN A </label><br>
-    <input type="submit" value="Request" class="btn--disabled"/>
+    <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
 </form>
 </div>
