@@ -36,11 +36,11 @@ header:
     <label for="choice">Choose the subset/s you want to download:</label><br>
     <input type="checkbox" id="best" name="best" value="IDDA Best"><label for="best" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA Best </label><br>
     <input type="checkbox" id="worst" name="worst" value="IDDA Worst"><label for="worst" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA Worst </label><br>
-    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 CS A </label><br>
-    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 CS J </label><br>
-    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 HRN A </label><br>
-    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 HRN J </label><br>
-    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T07 HRN A </label><br>
+    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Town01, Clear Sunset, Audi </label><br>
+    <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Town01, Clear Sunset, Jeep </label><br>
+    <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Town01, Hard Rain Noon, Audi </label><br>
+    <input type="checkbox" id="t01hrnj" name="t01hrnj" value="T01 HRN J"><label for="t01hrnj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Town01, Hard Rain Noon, Jeep </label><br>
+    <input type="checkbox" id="t07hrna" name="t07hrna" value="T07 HRN A"><label for="t07hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Town07, Hard Rain Noon, Audi </label><br>
     <p><br><br><br></p>
     <input type="submit" value="Request" class="btn--success"/>
   </fieldset>
