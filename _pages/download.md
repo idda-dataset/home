@@ -24,7 +24,8 @@ function myFunction() {
 </script>
 
 <div style="word-wrap: break-word; width:auto; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC;" >
-<form action="mailto:someone@example.com" method="post" enctype="text/plain" style="background: none;">
+
+<form accept-charset="UTF-8" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
   <fieldset>
     <legend><b>Compile this form to request the dataset or a single split</b></legend>
     <p><br><br><br></p>
@@ -37,50 +38,13 @@ function myFunction() {
     <label for="company">Organization:</label><br>
     <input type="text" id="company" style="border: none; border-bottom: 0.01em solid gray;"><br>
     <label for="reason">Reason for use of dataset*:</label><br>
-    <textarea id="reason" style="border: none; border-bottom: 0.01em solid gray;" rows="5" required></textarea><br>
-    Do you want the whole dataset?<br>
-    <select id="mySelect" onchange="myFunction();" required>
-        <option value=""></option>
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-    </select>
-    <p id="demo"></p>
-    <div id="ifYes" style="display: none;">
-        <p>Create your own scenario</p>
-        <div style="width:100%; height:100%;">
-            <label for="towns">Town:</label>
-            <select name="towns">
-                <option value=""></option>
-                <option value="town01">Town 01</option>
-                <option value="town02">Town 02</option>
-                <option value="town03">Town 03</option>
-                <option value="town04">Town 04</option>
-                <option value="town05">Town 05</option>
-                <option value="town06">Town 06</option>
-                <option value="town07">Town 07</option>
-            </select>
-            <br>
-            <label for="weather">Weather and illumination condition:</label>
-            <select name="weather">
-                <option value=""></option>
-                <option value="weather1">Clear Noon</option>
-                <option value="weather2">Clear Sunset</option>
-                <option value="weather3">Hard Rain Noon</option>
-            </select>
-            <br>
-            <label for="viewpoint">Vehicle viewpoint:</label>
-            <select name="viewpoint">
-                <option value=""></option>
-                <option value="audi">Audi TT</option>
-                <option value="mustang">Ford Mustang</option>
-                <option value="jeep">Jeep Wrangler Rubicon</option>
-                <option value="volkswagen">Volkswagen T2</option>
-                <option value="bus">Bus</option>
-            </select>
-            <br>
-        </div>
-    </div>
-    <p><br><br></p>
+    <textarea id="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
+    <input type="checkbox" id="best" name="best" value="Splitting Best">
+    <label for="best"> Splitting Best </label><br>
+    <input type="checkbox" id="worst" name="worst" value="Splitting Worst">
+    <label for="worst"> Splitting Worst </label><br>
+    <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A">
+    <label for="t01csa"> T01 CS A </label><br>
     <input type="submit" value="Request" class="btn--disabled"/>
   </fieldset>
 </form>
@@ -90,6 +54,5 @@ function myFunction() {
 <br>
 
 *Required field<br>
-Dataset download and licence information will be available soon. You can now download a preview 
-of IDDA [here](https://mega.nz/#F!xBFw3ABA!xEj885HAkwW2TZwzSMuRcw)
+Dataset download will be available next week.
 {: .notice--warning}
