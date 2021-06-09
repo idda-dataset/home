@@ -34,8 +34,8 @@ header:
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <label for="choice">Choose the subset/s you want to download:</label><br>
-    <input type="checkbox" id="best" name="best" value="Splitting Best"><label for="best" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Splitting Best </label><br>
-    <input type="checkbox" id="worst" name="worst" value="Splitting Worst"><label for="worst" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> Splitting Worst </label><br>
+    <input type="checkbox" id="best" name="best" value="IDDA Best"><label for="best" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA Best </label><br>
+    <input type="checkbox" id="worst" name="worst" value="IDDA Worst"><label for="worst" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA Worst </label><br>
     <input type="checkbox" id="t01csa" name="t01csa" value="T01 CS A"><label for="t01csa" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 CS A </label><br>
     <input type="checkbox" id="t01csj" name="t01csj" value="T01 CS J"><label for="t01csj" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 CS J </label><br>
     <input type="checkbox" id="t01hrna" name="t01hrna" value="T01 HRN A"><label for="t01hrna" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> T01 HRN A </label><br>
