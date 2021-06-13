@@ -50,5 +50,5 @@ header:
 <br>
 
 *Required field<br>
-You will receive download link by email. More splittings will be added soon. 
+You will receive download link by email starting 15th June. More splittings will be added soon. 
 {: .notice--success}
