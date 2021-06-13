@@ -1,7 +1,7 @@
 ---
 title: "IDDA Download Available"
 header:
-  image: /assets/images/logo3.png
+  image: /assets/images/download.jpg
 tags: 
   - idda
   - download
