@@ -17,11 +17,11 @@ header:
 
 
 
-<div style="word-wrap: break-word; width:75%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
+<div style="word-wrap: break-word; width:100%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
 
 <form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
   <fieldset>
-    <legend><b>Compile this form to request IDDA download</b></legend>
+    <legend><b>Compile this form to request access to IDDA</b></legend>
     <p><br><br><br></p>
     <label for="fname">Name*:</label><br>
     <input type="text" id="fname" name="name" style="border: none; border-bottom: 0.01em solid gray;" required><br>
