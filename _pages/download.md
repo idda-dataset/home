@@ -17,7 +17,7 @@ header:
 
 
 
-<div style="word-wrap: break-word; width:50%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
+<div style="word-wrap: break-word; width:75%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
 
 <form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
   <fieldset>
