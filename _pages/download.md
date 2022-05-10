@@ -50,5 +50,5 @@ header:
 *Required field<br>
 You will receive download link by email. All the scenarios analyzed in the companion paper are available for download. More splittings will be added soon.
 <br>
-IDDA v2 available for download soon!
+IDDA v2 now available for download!
 {: .notice--success}
