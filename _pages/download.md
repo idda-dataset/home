@@ -31,12 +31,12 @@ header:
     <input type="email" id="email" name="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
     <label for="company">Organization:</label><br>
     <input type="text" id="company" name="organization" style="border: none; border-bottom: 0.01em solid gray;"><br>
-    <p>Choose the dataset that you want to download::</p>
-    <input type="radio" id="iddav1" name="iddav1" value="IDDA V1">
-    <label for="iddav1" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
-    <input type="radio" id="iddav2" name="iddav2" value="IDDA V2">
-    <label for="iddav2" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
-    <br>
+    <p>Choose the dataset you want to download:</p>
+    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V1">
+    <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
+    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V2">
+    <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
+    <br><br>
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <p><br><br><br></p>
