@@ -21,7 +21,7 @@ header:
 
 <form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
   <fieldset>
-    <legend><b>Compile this form to request access to IDDA</b></legend>
+    <legend><b>Compile this form to request access to IDDA V1 or V2</b></legend>
     <p><br><br><br></p>
     <label for="fname">Name*:</label><br>
     <input type="text" id="fname" name="name" style="border: none; border-bottom: 0.01em solid gray;" required><br>
@@ -32,10 +32,10 @@ header:
     <label for="company">Organization:</label><br>
     <input type="text" id="company" name="organization" style="border: none; border-bottom: 0.01em solid gray;"><br>
     <p>Choose the dataset you want to download:</p>
-    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V1" required>
-    <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
-    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V2" required>
-    <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
+    <input type="radio" id="download" name="download" value="IDDA V1" required>
+    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
+    <input type="radio" id="download" name="download" value="IDDA V2" required>
+    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
     <p><br><br></p>
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
@@ -49,5 +49,6 @@ header:
 
 *Required field<br>
 You will receive download link by email. All the scenarios analyzed in the companion paper are available for download. More splittings will be added soon.
-IDDA v2 now available for download!
+<br>
+IDDA v2 available for download soon!
 {: .notice--success}
