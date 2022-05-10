@@ -32,11 +32,11 @@ header:
     <label for="company">Organization:</label><br>
     <input type="text" id="company" name="organization" style="border: none; border-bottom: 0.01em solid gray;"><br>
     <p>Choose the dataset you want to download:</p>
-    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V1">
+    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V1" required>
     <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
-    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V2">
+    <input type="radio" id="iddadownload" name="iddadownload" value="IDDA V2" required>
     <label for="iddadownload" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
-    <br><br>
+    <p><br><br></p>
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
     <p><br><br><br></p>
