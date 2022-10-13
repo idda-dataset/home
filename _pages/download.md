@@ -36,6 +36,8 @@ header:
     <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
     <input type="radio" id="download" name="download" value="IDDA V2" required>
     <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
+    <input type="radio" id="download" name="download" value="IDDA V3" required>
+    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V3 - Semantic Segmentation & Federated Learning (FedDrive) </label><br>
     <p><br><br></p>
     <label for="reason">Reason for use of dataset*:</label><br>
     <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
