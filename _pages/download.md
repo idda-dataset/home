@@ -11,7 +11,11 @@ header:
 ---
 
 <script>
-
+function show_link(download) {
+  if(download.trim() === "IDDA V2".trim()){
+    alert("Download Link for IDDA V2: https://www.dropbox.com/s/dl/vuc8e911u5dl062/IDDAv2.zip");
+  }
+}
 </script>
 
 
@@ -19,7 +23,7 @@ header:
 
 <div style="word-wrap: break-word; width:100%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
 
-<form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
+<form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank" onsubmit="show_link(download)">
   <fieldset>
     <legend><b>Compile this form to request access to IDDA V1, V2 or V3</b></legend>
     <p><br><br><br></p>
