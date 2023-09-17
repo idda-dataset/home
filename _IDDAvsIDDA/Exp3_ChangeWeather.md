@@ -1,5 +1,5 @@
 ---
-title: "Weather Change<sup>NEW</sup>"
+title: "Weather Change"
 layout: single
 toc: false
 classes: wide
