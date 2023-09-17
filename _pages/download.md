@@ -17,41 +17,50 @@ header:
 
 
 <div style="word-wrap: break-word; width:100%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
+<form style="background-color:White;" action="https://drive.google.com/drive/folders/1dmQNo5yeHMEaDSFe2DsX3FHMM0S6oLgF?usp=sharing">
+<h3>IDDA V1</h3><br>
+<h4>Semantic Segmentation & Domain Adaptation</h4>
+<br>
+<button type="submit" style="background-color: #3f888f;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;">Download</button>
+</form>
+</div>
 
-<form accept-charset="UTF-8" style="background-color:White;" action="https://getform.io/f/da0906d1-21bc-42cc-ba85-6dc77904a443" method="POST" enctype="multipart/form-data" target="_blank">
-  <fieldset>
-    <legend><b>Compile this form to request access to IDDA V1, V2 or V3</b></legend>
-    <p><br><br><br></p>
-    <label for="fname">Name*:</label><br>
-    <input type="text" id="fname" name="name" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="lname">Surname*:</label><br>
-    <input type="text" id="lname" name="surname" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="email">Email*:</label><br>
-    <input type="email" id="email" name="email" style="border: none; border-bottom: 0.01em solid gray;" required><br>
-    <label for="company">Organization:</label><br>
-    <input type="text" id="company" name="organization" style="border: none; border-bottom: 0.01em solid gray;"><br>
-    <p>Choose the dataset you want to download:</p>
-    <input type="radio" id="download" name="download" value="IDDA V1" required>
-    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V1 - Semantic Segmentation & Domain Adaptation </label><br>
-    <input type="radio" id="download" name="download" value="IDDA V2" required>
-    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V2 - Semantic Segmentation & Visual Place Recognition </label><br>
-    <input type="radio" id="download" name="download" value="IDDA V3" required>
-    <label for="download" style="margin-left: 2em; display: block; position: relative; margin-top: -1.4em; line-height: 1.4em;"> IDDA V3 - Semantic Segmentation & Federated Learning (FedDrive) </label><br>
-    <p><br><br></p>
-    <label for="reason">Reason for use of dataset*:</label><br>
-    <textarea id="reason" name="reason" style="border: none; border-bottom: 0.01em solid #808080;" rows="5" required></textarea><br>
-    <p><br><br><br></p>
-    <input type="submit" value="Request" class="btn--success"/>
-  </fieldset>
+<br>
+
+<div style="word-wrap: break-word; width:100%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
+<form style="background-color:White;" action="https://drive.google.com/file/d/1MlvQUQBpEAI1mTr6KiyjNIxopEn3Q8w1/view?usp=sharing">
+<h3>IDDA V2</h3><br> 
+<h4>Semantic Segmentation & Visual Place Recognition</h4>
+<br>
+<button type="submit" style="background-color:#ba6262;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;">Download</button>
+</form>
+</div>
+
+<br>
+
+<div style="word-wrap: break-word; width:100%; margin: auto; padding: 16px; box-shadow: 5px 5px 5px 5px #CCCCCC; background-color:White;" >
+<form style="background-color:White;" action="https://drive.google.com/file/d/1eHaYPM-eG4D47veWHo5AoH2ZJtYgkjD9/view?usp=sharing">
+<h3>IDDA V3 </h3><br>
+<h4>Semantic Segmentation & Federated Learning (FedDrive)</h4>
+<br>
+<button type="submit" style="background-color:#686c5e;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;">Download</button>
 </form>
 </div>
 <br>
 <br>
 
-*Required field<br>
-You will receive download link by email. All the scenarios analyzed in the companion paper are available for download. More splittings will be added soon.
-<br>
-IDDA V2 now available for download!
-<br>
-IDDA V3 (FedDrive) now available for download!
-{: .notice--success}
